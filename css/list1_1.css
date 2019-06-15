@@ -1,0 +1,22 @@
+.cImg{
+    border-radius: 50%;
+}
+.content{
+    text-align: center;
+}
+.content strong{
+    color: black;
+    font-size: 16px;
+}
+.content a{
+    text-decoration: none;
+}
+.caption{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+}
+hr{
+    background: rgba(0,0,0,0.12);
+    border:0;
+    height: 1px;
+}

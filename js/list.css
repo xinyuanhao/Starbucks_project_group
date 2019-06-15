@@ -1,0 +1,28 @@
+.bg_gray{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    line-height: 1.5rem;
+}
+.my_input_width{
+    width: 10%;border: 0;
+    outline: 0;
+}
+.my_btn_width{
+    width:1.5rem;
+}
+.pagination>li.page-item{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.pagination>li.page-item>a{
+    border-radius: 4px;
+}
+.my_bottom_size{
+    height:1.5rem;width: 1.5rem;
+    padding:0;
+}
+.border_top{
+    border-top-style:dashed!important;
+}
+.my-input-width{
+    width:2rem;
+}

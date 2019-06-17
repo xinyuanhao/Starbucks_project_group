@@ -1,7 +1,11 @@
 *{margin: 0;padding: 0;}
 
-/*body下的div*/
-body>div{
+.container{
+    max-width: 100%;
+}
+
+/*container下的div*/
+.container>div{
     padding-bottom: 24px;
     padding-top: 24px;
 }

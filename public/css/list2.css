@@ -1,0 +1,24 @@
+.heading{
+    display: block;
+    line-height: 160%;
+}
+.heading .pictureErji{
+    width: 100%;
+}
+
+/*文字div标签的class*/
+.wrapper{
+    color: #481600;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper p{
+    margin-bottom: 24px;
+}
+

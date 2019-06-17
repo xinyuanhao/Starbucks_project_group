@@ -1,0 +1,80 @@
+*{margin: 0;padding: 0;}
+
+/*body下的div*/
+body>div{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+/*h3标签的class*/
+.caption{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/*ul标签的class*/
+.grid{
+    list-style: none;
+    text-align: center;
+}
+
+/*ul下的li标签*/
+.grid li{
+    padding: 16px;
+}
+
+/*a标签的class*/
+.thumbnail{
+    width: 100%;
+    font-size: 1rem;
+}
+
+/*ul和a标签的class*/
+.grid .thumbnail{
+    display: block;
+    text-decoration: none;
+    color: inherit; 
+}
+
+/*a下div标签的class*/
+.circle{
+    border-radius: 50%;
+    box-shadow:0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.circle::before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.thumbnail .picture{
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 auto 6px;
+}
+
+/*a标签下的strong标签*/
+.thumbnail>strong{
+    display: block;
+    width: 100%;
+}
+
+/*状态*/
+.grid a{
+    transition: .5s;
+}
+.grid a:hover{
+    transform: translateY(-10px); 
+}
+
+/*分割线*/
+hr{
+    background: rgba(0, 0, 0, 0.12);
+    border: 0;
+    height: 1px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}

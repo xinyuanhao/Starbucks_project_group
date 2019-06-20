@@ -1,0 +1,15 @@
+.fluid>a{
+    float: left;
+    margin-right: 15px;
+}
+.fluid>.thumbnail{
+    width: auto;
+}
+.fluid>a:first-child{
+    margin-left: 20px;
+}
+.fluid::after{
+    content:"";
+    display: table;
+    clear: both;
+}

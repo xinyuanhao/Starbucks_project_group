@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/comm.css" />
+  <link rel="stylesheet" href="css/othernav.css" />
+  <link rel="stylesheet" href="css/02_Star_car.css" />
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="">
+    <!-- index-->
+    <div class="container ">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <div class="display-1">
+              <span>星礼卡</span>
+            </div>
+            <div class="tabs-wrapper">
+              <ul class="subcategories w-100">
+                <li>
+                  <a class="active" href="javascript:;">
+                    <span>关于星礼卡</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>管理星礼卡</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>在线申请发票</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay " id="nav-overlay">
+      <div class="container ">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="cart.html">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="Star_card.html">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div class="container02" id="star">
+      <div class="bg02">
+        <!-- 心意相随 div -->
+        <div>
+          <div class="grid-columns-2">
+            <div class="a1">
+              <p>星巴克星礼卡</p>
+              <h1>心意相随</h1>
+              <p>将星礼卡绑定至星享俱乐部帐户，使用星巴克App移动支付，即可加速积星，每消费40元获得一颗星星，比其他支付方式积星快25%</p>
+              <p>50元/100元/200元/300元/500元 （全国通用）</p>
+              <a href="#">常见问题</a>
+            </div>
+            <div class="a2">
+              <img src="img/car/01svc-cards.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- 第二个大的div-->
+        <div>
+          <div class="fluid ">
+            <div class="row">
+              <!-- 天猫商城div -->
+              <div class="col-md-4 col-sm-12">
+                <p>天猫商城</p>
+                <div>
+                  <h3>浓浓心意，送给特别的TA</h3>
+                  <img src="img/car/03svc-tmall-1.png" />
+                </div>
+                <div>
+                  <a href="#">前往天猫购买</a>
+                </div>
+                <img src="img/car/04svc-tmall-2.png">
+              </div>
+              <!-- 扫码送星礼卡 -->
+              <div class="col-md-4  col-sm-12">
+                <div class="wrapper">
+                  <p>扫码赠送星礼卡</p>
+                  <div>
+                    <div>
+                      <img src="img/car/05svc-say-1.png" />
+                    </div>
+                    <div>
+                      <img src="img/car/06svc-say-2.png" />
+                    </div>
+                  </div>
+                  <p>“用星说” 全新社交礼品平台，一个简单的小行动，即刻用心说出真情实意</p>
+                </div>
+              </div>
+              <!-- 公司购买 -->
+              <div class="col-md-4  col-sm-12">
+                <div class="wrapper3">
+                  <p>公司购买</p>
+                  <div>
+                    <p>一张星礼卡，将您的浓浓心意送给最重要的人。这份体贴而便捷的礼物替您在人际沟通中增进彼此的情感连接。</p>
+                    <p>如您有公司采购需求，请拨打星巴克服务热线："<a href="#">400-820-6998</a>", 将有专人为您提供服务。</p>
+                    <a href="#">查看星礼卡章程</a>
+                  </div>
+                  <img src="img/car/07svc-company.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 第三个大div -->
+        <div class="gift-card">
+          <!-- 头部 -->
+          <div>
+            <h2>星巴克星礼卡系列</h2>
+            <p>50元/100元/200元/300元/500元 （全国通用）</p>
+          </div>
+          <!-- 星礼卡系列 6种卡片 -->
+          <ul class="row">
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>品牌主题</span>
+                <strong>
+                  香醇祝福<br>
+                  一值在身边
+                </strong>
+              </a>
+            </li>
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>生日快乐主题</span>
+                <strong>
+                  生日祝福送给TA<br>
+                  香醇快乐一起分享
+                </strong>
+              </a>
+            </li>
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>感谢主题</span>
+                <strong>
+                  一声谢谢一杯咖啡<br>
+                  让真挚的心意相随<br>
+                  让真挚的心意相随
+                </strong>
+              </a>
+            </li>
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>美人鱼主题</span>
+                <strong>
+                  在一个萦绕香醇的惬意午后<br>
+                  让充满灵气的曼妙鱼尾<br>
+                  带 TA 追溯美人鱼的恣意踪迹
+                </strong>
+              </a>
+            </li>
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>咖啡主题</span>
+                <strong>
+                  谢谢你送的咖啡<br>
+                  失落时为我打气<br>
+                  成功时为我开心
+                </strong>
+              </a>
+            </li>
+            <li class="col-md-4 col-sm-6">
+              <a href="">
+                <div></div>
+                <span>爱情主题</span>
+                <strong>
+                  也许真挚的模样很简单<br>
+                  你在闹我在笑，相看两不厌<br>
+                  深情藏心间
+                </strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="img/project_nav/icon-home.svg">
+            <img src="img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-stores.svg">
+            <img src="img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-account.svg">
+            <img src="img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="img/project_nav/icon-menu.svg">
+            <img src="img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="img/project_nav/icon-more.svg">
+            <img src="img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/nav.js"></script>
+</body>
+
+</html>

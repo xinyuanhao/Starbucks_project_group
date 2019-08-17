@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>工作机会</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/comm.css" />
+  <link rel="stylesheet" href="../css/othernav.css" />
+  <link rel="stylesheet" href="../about.css/02_work.css">
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <div class="display-1">
+              <span>关于星巴克</span>
+            </div>
+            <div class="tabs-wrapper">
+              <ul class="subcategories w-100">
+                <li>
+                  <a class="false" href="../about.html/01_inchina.html">
+                    <span>星巴克在中国</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="active" href="../about.html/02_work.html">
+                    <span>工作机会</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/03_news.html">
+                    <span>企业新闻</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/04_Social.html">
+                    <span>社会责任</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/05_history.html">
+                    <span>历史回顾</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/06_phone.html">
+                    <span>联系我们</span>
+                  </a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div id="content9">
+      <div class="header99">
+        <h1 class="header-h1">有一个机会，成为辛巴克伙伴</h1>
+        <p class="header-green-p">连接更广阔的世界</p>
+        <p class="header-p">
+          加入星巴克大家庭，和我们一起工作，让我们与你一起成长，创造无限可能。在星巴克工作意味着一个获得超越简单雇佣关系的机会，成为我们的伙伴。我们在这里和你一起成长，成为一个更好的人，实现更大的目标，在你面前的正是无限可能。你可以在星巴克实现更多、成就更多，并且成为最好的自己。就在这里认同自己的价值然后去发现一个更大更有意义的世界。
+        </p>
+        <div class="header-background-image">
+          <div class="header-image"></div>
+        </div>
+      </div>
+      <div class="section">
+        <h1 class="section-h1">关于星巴克</h1>
+        <div id="section-ul" class="row">
+          <div id="section-ul-1" class="col-lg-6 col-md-6 col-sm-12">
+            <h3 class="ul-h3">伙伴文化</h3>
+            <p class="ul-p">有一个机会成为星巴克的伙伴</p>
+            <h3 class="li-h3">我们的使命</h3>
+            <p class="ul-p">激发并孕育人文精神——每人、每杯、每个社区</p>
+            <h3 class="li-h3">伙伴·同行</h3>
+            <ul>
+              <li class="li-style">在星巴克，我们称彼此为伙伴，伙伴们一起共享在星巴克的无限机会，伙伴们一起实现更多、成就更多</li>
+              <li class="li-style">在星巴克，连接更广阔的世界、做最好的自己、成就非凡事业，让每一天都充满意义地连接彼此、成就自己</li>
+            </ul>
+          </div>
+          <div id="section-ul-2" class="col-lg-6 col-md-6 col-sm-12">
+            <h3 class="ul-h3">咖啡文化</h3>
+            <ul>
+              <li class="li-style">星巴克的咖啡文化不仅是延续传统传播咖啡文化，还传递情感联系</li>
+              <li class="li-style">始于对咖啡的热爱，星巴克从西雅图出发到如今遍布世界各地，让更多的人享受到高品质的咖啡</li>
+              <li class="li-style">同样始于对咖啡的热爱，星巴克伙伴们从祖国各地汇聚在门店，将这份咖啡之爱传递到更广阔的天地</li>
+              <li class="li-style">星巴克提供了诸多机会让伙伴们得以提高咖啡技能，围裙的不同颜色代表从咖啡探索者到咖啡公使的不同咖啡技能等级</li>
+            </ul>
+          </div>
+        </div>
+        <div id="image-style" class="row">
+          <div class="col-4">
+            <img id="row-image" src="../about.image/02_work_image/starbucks-employee-twins.png" alt="">
+          </div>
+          <div class="col-4">
+            <img id="row-image" src="../about.image/02_work_image/starbucks-store.jpg" alt="">
+          </div>
+          <div class="col-4">
+            <img id="row-image" src="../about.image/02_work_image/starbucks-wechat-social-gifting.jpg" alt="">
+          </div>
+        </div>
+        <h1 class="section-h1">选择星巴克</h1>
+        <div class="ul-image">
+          <h3 class="ul-image-h3">雇主赞誉</h3>
+          <ul>
+            <li class="li-style">星巴克不只是一家“咖啡”公司更是一家和“人”有关的公司</li>
+            <li class="li-style">星巴克是咖啡知识和专业技能方面的领导者，同样对伙伴的重视星巴克一样走在前列</li>
+            <li class="li-style">星巴克重视并认可伙伴们的持续贡献与持续投入，致力于帮助他们实现个人和职业梦想。伙伴们拥有“咖啡豆股票”的权益并享有“助房津贴计划”、“咖啡星享假期”和“父母关爱计划”等福利
+            </li>
+            <li class="li-style">
+              星巴克的努力得到了业界的赞誉与认可，并因此获得多个机构颁发的最佳雇主荣誉（多次被Aon、Universum、LinkedIn等机构评选为中国最佳雇主、中国最具吸引力雇主、中国典范雇主等）</li>
+          </ul>
+        </div>
+        <div class="ul-image-p">
+          <img src="../about.image/02_work_image/careers-bg-line-3.svg" alt="">
+        </div>
+        <div>
+          <h3 class="ul-image-h3">全面薪资</h3>
+          <p class="img-p">我们的伙伴无论全职还是兼职（每周20小时或以上），都可以享受一系列的薪酬福利项目。根据工作职位和个人情况的不同，伙伴的全面薪酬福利包括：</p>
+          <div class="row">
+            <ul id="row-ul" class="col-6">
+              <li class="li-style">不断增长的薪资</li>
+              <li class="li-style">额外的人寿保险</li>
+              <li class="li-style">医疗保险</li>
+              <li class="li-style">股票期权（咖啡豆股票)</li>
+              <li class="li-style">助房津贴计划</li>
+            </ul>
+            <ul class="col-6">
+              <li class="li-style">咖啡星享假期</li>
+              <li class="li-style">父母关爱计划</li>
+              <li class="li-style">管理奖金计划</li>
+              <li class="li-style">咖啡饮料伙伴券</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ul-image-p">
+          <img src="../about.image/02_work_image/careers-bg-line-4.svg" alt="">
+        </div>
+        <div class="university">
+          <h3 class="ul-image-h3">星巴克大学 | 伙伴们的专属咖啡大学</h3>
+          <ul>
+            <li class="li-style">星巴克中国大学（Starbucks China University）为伙伴们设计了个性化的学习与发展道路</li>
+            <li class="li-style">希望通过这些努力，与每一个星巴克伙伴分享每一个机会的乐趣，迎接每一个机会的挑战</li>
+            <li class="li-style">作为星巴克伙伴，你可以在SCU选择不同的课程进行学习，打造你在关键领域的专业能力，你的每一次学习都将向你想要的未来更进一步</li><br>
+            <div class="row">
+              <div class="col-8">
+                <ul>
+                  <li class="li-style">零售学院</li>
+                  <li class="li-style">领导力学院</li>
+                  <li class="li-style">咖啡与文化学院</li>
+                  <li class="li-style">专业职能学院</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="../about.image/02_work_image/careers-icon-scu.png" alt="">
+              </div>
+            </div>
+
+          </ul>
+        </div>
+        <div id="footer-image" class="row">
+          <div class="col-6" id="footer-image-div">
+            <h2 id="footer-image-h2">加入我们</h2>
+          </div>
+          <div class="col-6" id="footer-image-div">
+            <img id="footer-image-wechat" src="../about.image/02_work_image/starbucks_recruitment_wechat_qr_code.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../img/project_nav/icon-home.svg">
+            <img src="../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../img/project_nav/icon-stores.svg">
+            <img src="../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../img/project_nav/icon-account.svg">
+            <img src="../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../img/project_nav/icon-menu.svg">
+            <img src="../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../img/project_nav/icon-more.svg">
+            <img src="../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="../js/nav.js"></script>
+</body>
+
+</html>

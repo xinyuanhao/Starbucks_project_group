@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>星巴克全球首家啡快™概念店在京揭幕</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../css/comm.css" />
+  <link rel="stylesheet" href="../../css/othernav.css" />
+  <style>
+    #content99 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header99 {
+      background-color: #fff;
+      border-top: 2px solid #00A862;
+    }
+
+    .header99-h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2.2rem;
+      padding-bottom: 15px;
+      padding-top: 30px;
+    }
+
+    .header99-p {
+      font-size: 1.2rem;
+      text-align: center;
+      color: #C2A661;
+      font-weight: 500;
+      padding-bottom: 15px;
+    }
+
+    .header99-image {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+
+    .section {
+      background-color: #f7f7f7;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+
+    .section-header99 {
+      padding: 30px 24px 10px 24px;
+      font-size: 1.6rem;
+      font-style: italic;
+    }
+
+    .section-p {
+      font-size: 1.2rem;
+      padding-bottom: 15px;
+    }
+
+    .section-image {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .image-p {
+      font-size: 16px;
+      text-align: center;
+      font-style: italic;
+      padding-bottom: 15px;
+    }
+
+    .section-h2 {
+      font-size: 1.6rem;
+      padding-bottom: 15px;
+    }
+
+    .section-a {
+      color: #00A862;
+      text-decoration: none !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+
+            <a class="back" href="../03_news.html">
+              <img src="../../img/project_nav/icon-chevron-left.svg" alt="">
+              企业新闻
+            </a>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div id="content99">
+      <div class="header99">
+        <h1 class="header99-h1">星巴克全球首家啡快™概念店在京揭幕</h1>
+        <p class="header99-p">12/07/2019</p>
+        <p class="header99-image">
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/wechat.svg" alt="">
+          </a>
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/weibo.svg" alt="">
+          </a>
+        </p>
+      </div>
+      <div class="section">
+        <p class="section-header99">
+          这一全新门店类型，将啡快™和专星送™与门店第三空间完美融合，带来即时、即取、即享的全新星巴克体验
+        </p>
+        <p class="section-p">
+          <strong>（2019年7月12日，北京）</strong>今天，星巴克全球首家啡快™概念店在北京正式揭幕。这一创新的零售门店业态，将星巴克门店第三空间与数字化第四空间体验无缝连接。全新升级的门店布局，集合“在线点，到店取”的啡快™服务、专星送™外送服务和到店顾客体验三大功能，为顾客和专星送™骑手带来“简而不减”的星巴克体验，进一步践行对品质与速度的双重品牌承诺。
+        </p>
+        <p class="section-image">
+          <img src="../../about.image/03_news_image/new.img/feikuai-bj.jpg" alt="">
+          <p class="image-p">星巴克全球首家啡快™概念店在北京正式揭幕</p>
+        </p>
+        <p class="section-p">
+          首家啡快™概念店坐落于北京中心城区的金融街，凭借更具策略性的门店选址，带来更高效便捷的星巴克体验，满足当下中国都市快节奏生活方式的需求。
+        </p>
+        <p class="section-p">
+          “星巴克始终通过门店类型的突破与创新，持续提升顾客体验。全新啡快™概念店的推出再次践行了这一承诺。”星巴克中国零售业务总裁兼首席运营官蔡德粦表示，“这一全新门店业态和设计布局在讲求快节奏与多元化的都市生活中，为顾客带来更快速、更便捷的星巴克体验。”
+        </p>
+        <p class="section-image">
+          <img src="../../about.image/03_news_image/new.img/feikuai-store-bj.jpg" alt="">
+        </p>
+        <p class="image-p">啡快™概念店带来“简而不减”的星巴克体验</p>
+        <h2 class="section-h2">点单与自取服务的革新体验</h2>
+        <p class="section-p">
+          啡快™概念店内特别增设了“星礼台”，咖啡师将在这里欢迎顾客，并帮助他们从店内自提柜取出饮品食品，或完成现场点单。顾客也可通过星巴克APP提前进行点单，强大的客制化功能为顾客提供了丰富的手工调制饮品选择和贴心的食品搭配建议。此外，店内还设有少量座位，使顾客能够一如既往地享受星巴克独特的第三空间体验。
+        </p>
+        <p class="section-p">
+          啡快™概念店特别为专星送™骑手设计了独立的取货动线与专属自提柜区域，进一步优化了骑手体验与取货效率。所有通过啡快™和专星送™线上点单的饮品与食品都将妥善存放于自提柜中方便取用。
+        </p>
+        <p class="section-image">
+          <img src="../../about.image/03_news_image/new.img/feikuai-delivery-bj.jpg" alt="">
+        </p>
+        <p class="image-p">啡快™概念店进一步优化了专星送™骑手体验与取货效率</p>
+        <p class="section-p">
+          同时，啡快™概念店还通过智能派单系统将产能辐射至整个商圈区域，在客流高峰时段，啡快™概念店将通过店内的中央厨房分担附近门店的专星送™订单，减少商圈内其他门店顾客的等候时间，帮助这些门店的咖啡师更专注提升所在门店的第三空间体验，进而提升整个商圈内星巴克门店体验的效率与品质。
+        </p>
+        <h2 class="section-h2">以“中国速度”持续创新</h2>
+        <p class="section-p">
+          今年5月，星巴克中国推出“在线点，到店取”的啡快™服务，并率先于北京、上海两地约300家门店试点上线。如今，这一服务已覆盖至杭州、南京共4个城市的1,300家门店，为更多顾客带去即时、即取、即享的全新星巴克体验。而啡快™概念店的推出，则以门店形态的升级创新，更进一步满足了顾客追求更快的服务速度和更多便捷性的需求。
+        </p>
+        <p class="section-p">
+          作为全球咖啡行业领导者，星巴克深耕中国市场20年，始终不忘积极践行“在中国、为中国”的承诺，在数字化领域与门店第三空间体验不断创新，为顾客提供超越期待的星巴克体验。啡快™概念店是星巴克中国深化情感连接、提升顾客体验的又一次积极实践。
+        </p>
+        <p class="section-p">
+          未来，星巴克中国计划将啡快™概念店陆续推广至全国更多城市，在核心商圈、交通枢纽等高客流区域进行策略性布局。
+        </p><br>
+        <hr><br>
+        <h2 class="section-h2">关于星巴克咖啡公司</h2>
+        <p class="section-p">
+          星巴克咖啡公司成立于1971年，始终致力于商业道德采购并烘焙世界上高品质的阿拉比卡咖啡。今天，门店遍布全球的星巴克已经成为世界上首屈一指的专业咖啡烘焙商和零售商。通过我们的星级咖啡师，星巴克始终坚持对卓越品质和服务的承诺，遵循我们的指导原则，通过每一杯优质的咖啡为我们的顾客每天营造独特的星巴克体验。欢迎您到访我们的门店，访问星巴克中国官方网站<a
+            class="section-a" href="https://weibo.com/starbucks">www.starbucks.com.cn</a>或者关注星巴克中国新浪官方微博<a
+            class="section-a" href="http://weibo.com/starbucks">@星巴克中国</a>，以及星巴克中国微信官方帐号“星巴克中国”，分享独特的星巴克体验。
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-home.svg">
+            <img src="../../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-stores.svg">
+            <img src="../../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-account.svg">
+            <img src="../../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-menu.svg">
+            <img src="../../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-more.svg">
+            <img src="../../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="../../js/nav.js"></script>
+</body>
+
+</html>

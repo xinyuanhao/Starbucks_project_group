@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>社会责任</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/comm.css" />
+  <link rel="stylesheet" href="../css/othernav.css" />
+  <link rel="stylesheet" href="../about.css/04_Social.css">
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <div class="display-1">
+              <span>关于星巴克</span>
+            </div>
+            <div class="tabs-wrapper">
+              <ul class="subcategories w-100">
+                <li>
+                  <a class="false" href="../about.html/01_inchina.html">
+                    <span>星巴克在中国</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/02_work.html">
+                    <span>工作机会</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/03_news.html">
+                    <span>企业新闻</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="active" href="../about.html/04_Social.html">
+                    <span>社会责任</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/05_history.html">
+                    <span>历史回顾</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="../about.html/06_phone.html">
+                    <span>联系我们</span>
+                  </a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div class="social">
+      <div class="header99">
+        <div class="header99_image">
+          <div class="header99_y">
+            <div class="header99_section">
+              <h1 class="header99_section_h1">社会责任</h1>
+              <p class="white">取得了令人欣慰的表现</p>
+              <p class="white">
+                我们的2016年全球社会影响绩效报告标志着我们作为一家公司取得的进步，一家通过人文关怀推动绩效增长的公司。在全球75个国家／地区中330,000多位合作伙伴的共同努力下，我们不仅超越了为帮助我们服务的社区所定的大部分目标，还在财务业绩上再创新高。我们与保护国际组织（Conservation
+                International）、消除美国饥饿组织（Feeding America）以及全球数百个社区服务合作伙伴等组织保持着持久的战略伙伴关系，这让我们能够善加利用我们的业务规模。
+              </p>
+              <p class="white">
+                我们通过坚定果断的决策和集体行动共同取得了这种进步，并对未来的发展怀抱着新的远大志向。
+              </p>
+              <p class="white_p">
+                Kevin Johnson
+              </p>
+              <p class="white_p">
+                总裁兼首席执行官
+              </p>
+              <p class="white">
+                前进之路
+              </p>
+              <p class="white">
+                我们将重点关注四个可让我们的承诺和业务规模发挥最大作用的领域：
+              </p>
+              <ul class="white">
+                <li>通过尽我们的职责改善全球
+                  <strong>咖啡社区</strong>
+                  中100万人的生活，使咖啡成为世界上第一个可持续农产品
+                </li>
+                <li>
+                  构建并运营全球规模最大的
+                  <strong>绿色零售业务</strong>
+                </li>
+                <li>
+                  为100万人
+                  <strong>创造就业机会</strong>
+                </li>
+                <li>
+                  <strong>强化社区</strong>
+                  ，欢迎所有人的到来并扩大重大事件的影响力
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper9">
+        <a class="card9" href="./04_social-section/01_food.html">
+          <div id="card9-hover" class="row">
+            <div class="col-4">
+              <div id="card9-image-1"></div>
+            </div>
+            <div id="card9-section" class="col-8">
+              <h3 class="wrapper9-h3">星巴克食品安全和质量声明</h3>
+              <p class="white">
+                食品安全是企业发展的命脉和头等重任。星巴克始终坚持对安全品质和卓越服务的承诺，严格遵守相应的法律法规，以优质的产品与服务每天为顾客营造独特的星巴克体验。
+              </p>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="wrapper9">
+          <a class="card9" href="./04_social-section/02_sale.html">
+            <div class=row>
+              <div class="col-4">
+                <div id="card9-image-2"></div>
+              </div>
+              <div id="card9-section" class="col-8">
+                <h3 class="wrapper9-h3">引领绿色零售</h3>
+                <p class="white">
+                  星巴克拥有30年的环境保护领导传统，在庆祝这一点时，我们很早就明白，地球才是我们最重要的合作伙伴。我们将继续采用绿色零售方法，并树立了将在2020年及以后实现的远大目标。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="wrapper9">
+          <a class="card9" href="./04_social-section/03_future.html">
+            <div class=row>
+              <div class="col-4">
+                <div id="card9-image-3"></div>
+              </div>
+              <div id="card9-section" class="col-8">
+                <h3 class="wrapper9-h3">我们在可持续咖啡方面的未来</h3>
+                <p class="white">
+                  星巴克十分自豪地取得了里程碑式的成绩：99%的咖啡都以合乎道德的方式采购。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="wrapper9">
+          <a class="card9" href="./04_social-section/04_buy.html">
+            <div class=row>
+              <div class="col-4">
+                <div id="card9-image-4"></div>
+              </div>
+              <div id="card9-section" class="col-8">
+                <h3 class="wrapper9-h3">成品采购</h3>
+                <p class="white">
+                  不论是我们货架上的商品，还是门店里的设施，以及咖啡师腰间的围裙，我们的追求都是精益求精。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="wrapper9">
+          <a class="card9" href="https://www.starbucks.com.cn/about/responsibility/serving-the-community/">
+            <div class=row>
+              <div class="col-4">
+                <div id="card9-image-5"></div>
+              </div>
+              <div id="card9-section" class="col-8">
+                <h3 class="wrapper9-h3">回馈社区</h3>
+                <p class="white">
+                  融入并回馈当地社区是我们的核心价值
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../img/project_nav/icon-home.svg">
+            <img src="../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../img/project_nav/icon-stores.svg">
+            <img src="../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../img/project_nav/icon-account.svg">
+            <img src="../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../img/project_nav/icon-menu.svg">
+            <img src="../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../img/project_nav/icon-more.svg">
+            <img src="../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="../js/nav.js"></script>
+</body>
+
+</html>

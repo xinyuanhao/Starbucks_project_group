@@ -1,0 +1,433 @@
+#content .section {
+    clear: both;
+}
+h4,
+h5,
+h6,
+.h4,
+.subhead-1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.box>.header>.icon {
+    float: right;
+    margin: 3px 0;
+}
+.icon {
+    background: none;
+    border: 0;
+    outline: none;
+}
+/* 1 */
+.box.msr .summary .account-info .tier-progress .fill.fill-green{
+    left:25%;
+    background:#00A862;
+
+}
+.box.msr .summary .account-info .privilege--gold .badge,
+.box.msr .summary .account-info .privilege--gold .lock {
+    background: #C3A75C;
+}
+.box.msr .summary .account-info .badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.24);
+}
+.box.msr .summary .account-info .privilege--green .badge,
+.box.msr .summary .account-info .privilege--green .lock {
+    background: #00A862;
+}
+.box.msr .summary .account-info .badge .lock {
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.34);
+}
+
+.box.msr .summary .account-info-welcome .privilege--green .badge {
+    background: #616161;
+}
+.box.msr .summary .account-info-welcome .privilege--gold .badge {
+    background: #616161;
+}
+.box.msr .summary .account-info .privilege {
+    display: inline-block;
+    margin-right: 24px;
+    padding: 0;
+    width: 72px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #FFF;
+    background: transparent;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+ .box.msr .summary .account-info .privilege {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.items-start {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+.box.msr .summary .account-info .privileges {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box.msr .summary .account-info .privilege-title {
+    margin-top: 16px;
+}
+.box.msr .summary .account-info .next .quick-levelup {
+    margin-left: 20px;
+}
+.box.msr .summary .account-info .tier-progress .tier-welcome {
+    left: 0;
+    background: #B5B5B5;
+}
+.box.msr .summary .account-info .tier-progress .star-count img {
+    margin-left: 1px;
+    vertical-align: -1px;
+}
+.box.msr .summary .account-info .tier-progress .star-count:after {
+    content: '';
+    position: absolute;
+    border-right: 7px solid transparent;
+    border-bottom-color: #FFF;
+    border-top: 7px solid #FFF;
+    border-left: 7px solid transparent;
+    bottom: -7px;
+    left: calc(50% - 7px);
+}
+.box.msr .summary .account-info .tier-progress .star-count {
+    position: absolute;
+    bottom: 30px;
+    width: 110px;
+    margin-left: -55px;
+    background: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+.box.msr .summary .account-info .tier-progress .fill {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 6px;
+    background: #eceae8;
+    border-radius: 12px;
+}
+.box.msr .summary .account-info .tier-progress .tier:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFF;
+}
+.box.msr .summary .account-info .tier-progress .tier-gold:before {
+    background: #C3A75C;
+}
+.box.msr .summary .account-info .tier-progress .tier-gold {
+    left: 100%;
+}
+
+.box.msr .summary .account-info .tier-progress .tier-green:before {
+    background: #00A862;
+}
+.box.msr .summary .account-info .tier-progress .tier span {
+    position: absolute;
+    top: 36px;
+    left: -7px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.box.msr .summary .account-info .tier-progress .tier:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.box.msr .summary .account-info .tier-progress .tier {
+    position: absolute;
+    z-index: 2;
+    top: -4px;
+    margin-left: -11px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #FFF;
+    color: #FFF;
+}
+.box.msr .summary .account-info .tier-progress .tier-welcome {
+    left: 0;
+    background: #B5B5B5;
+}
+.box.msr .summary .account-info .tier-progress {
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background: #252525;
+}
+.box.msr .summary .account-info .next {
+    font-size: 17px;
+    line-height: 1.67;
+}
+.box.msr .summary .account-info .tier-progress-wrapper {
+    margin: 45px 20px 72px;
+}
+.box.msr .summary .account-info {
+    margin: 0 24px;
+}
+.flex2 {
+    flex: 2;
+}
+.box.msr .summary {
+    margin-bottom: 0;
+    position: relative;
+}
+.box>*:last-child {
+    margin-bottom: 0;
+}
+.box.msr>.body {
+    position: relative;
+}
+.box.welcome-level>.body,
+.box.green-level>.body,
+.box.gold-level>.body {
+    box-sizing: border-box;
+    height: 500px;
+    background-position: 80% center;
+    background-repeat: no-repeat;
+}
+.box.welcome-level>.body {
+    background-image: url(../img/account/star-bg-welcome.svg);
+}
+.box>.header h2,
+.box>.header h3 {
+    margin-bottom: 0;
+}
+h2,
+.h2,
+.headline {
+    font-size: 22px;
+    font-weight: 400;
+}
+.box.welcome-level>.header h2,
+.box.green-level>.header h2,
+.box.gold-level>.header h2 {
+    color: #FFF;
+}
+.box>.header>.icon {
+    float: right;
+    margin: 3px 0;
+}
+.box>.header,
+.box>.body,
+.box>.footer {
+    padding: 18px 24px;
+}
+.box>.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.box.welcome-level>.header,
+.box.green-level>.header,
+.box.gold-level>.header {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.box {
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    display: block;
+    overflow: hidden;
+}
+.box.welcome-level {
+    background: #3A3A3A;
+}
+.box.msr {
+    color: rgba(0, 0, 0, 0.87);
+}
+.box.welcome-level,
+.box.green-level,
+.box.gold-level {
+    color: #FFF;
+}
+
+/* 2 */
+
+.box.no_svc>div:last-child .footer a {
+    margin-bottom: 10px;
+}
+.box.no_svc>div:last-child .footer a:first-child {
+    margin-right: 10px;
+}
+.box.no_svc>div:last-child .footer {
+    float: right;
+    margin-top: 20px;
+}
+.box.no_svc>div:last-child h4 {
+    color: rgba(0, 0, 0, 0.87);
+}
+.account_app h2 {
+    color: rgba(0, 0, 0, 0.87);
+}
+.box.no_svc>div:last-child>div>div>img {
+    margin-bottom: 14px;
+}
+.box.no_svc>div:last-child>div>div>span {
+    font-size: 16px;
+    line-height: 160%;
+    vertical-align: super;
+    color: rgba(0, 0, 0, 0.87);
+}
+.box.no_svc>div:last-child>div {
+    width: 90%;
+    margin: 0 auto;
+}
+.box.no_svc>div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 10px;
+}
+.box.no_svc>div:first-child img {
+    width: 262px;
+    height: 165px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.box.no_svc>div {
+    width: 50%;
+}
+.box.no_svc>div:first-child {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box.no_svc {
+    height: auto;
+    display: flex;
+}
+.margin,
+.margin-1 {
+    margin-bottom: 24px !important;
+}
+/* 3 */
+.box .list li:last-child {
+    border-bottom: 0;
+}
+.box.msr .list h4,
+.box.activity .list h4,
+.box.my-rewards .list h4 {
+    margin-bottom: 0;
+}
+.box.msr .list img,
+.box.activity .list img,
+.box.my-rewards .list img {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+    width: 30px;
+}
+.box .list li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 0;
+    padding: 12px 18px;
+}
+.box.msr .list li,
+.box.activity .list li,
+.box.my-rewards .list li {
+    position: relative;
+    padding: 12px 0;
+}
+.box.activity .body .list li,
+.box.my-rewards .body .list li {
+    padding: 12px 24px 12px 60px;
+}
+.box.svc .header .count strong,
+.box.my-rewards .header .count strong {
+    line-height: 100%;
+    margin-right: 3px;
+}
+.box.svc .header .count,
+.box.my-rewards .header .count {
+    float: right;
+}
+.box.activity .body,
+.box.my-rewards .body {
+    padding: 0px;
+}
+.box>.body>*:last-child {
+    margin-bottom: 0;
+}
+/* 4 */
+.empty-message-wrapper {
+    padding: 12px 24px;
+}
+.box>.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: right;
+}
+
+
+
+@media (max-width: 640px){
+    .box.no_svc>div:first-child img {
+        margin: 30px 0;
+    }
+    .box.no_svc {
+        flex-direction: column;
+        height: auto;
+    }
+    .box.no_svc>div {
+        width: 100%;
+    }
+    .box.welcome-level>.body,
+    .box.green-level>.body,
+    .box.gold-level>.body {
+        background-image: none !important;
+        height: auto;
+    }
+}
+
+@media (min-width: 641px)  {
+    #content .section:first-child{
+       padding-top: 0; 
+    }
+    #content .section {
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .tablet-flex-row {
+        flex-direction: row;
+    }
+}
+@media (min-width: 992px) {
+    #content {
+        left: auto;
+        margin-left: 30%;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        width: 70%;
+        background: #f7f7f7;
+    }
+}

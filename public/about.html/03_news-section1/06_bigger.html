@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>星巴克荣获优兴咨询“2017中国最具吸引力雇主”</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../css/comm.css" />
+  <link rel="stylesheet" href="../../css/othernav.css" />
+  <style>
+    #content99 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header99 {
+      background-color: #fff;
+      border-top: 2px solid #00A862;
+    }
+
+    .header99-h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2.2rem;
+      padding-bottom: 15px;
+      padding-top: 30px;
+    }
+
+    .header99-p {
+      font-size: 1.2rem;
+      text-align: center;
+      color: #C2A661;
+      font-weight: 500;
+      padding-bottom: 15px;
+    }
+
+    .header99-image {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+
+    .section {
+      background-color: #f7f7f7;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+
+    .section-header99 {
+      text-align: center;
+      padding: 30px 24px 10px 24px;
+      font-size: 1.2rem;
+    }
+
+    .section-h2 {
+      font-size: 1.6rem;
+      padding-bottom: 15px;
+    }
+
+    .section-p {
+      font-size: 1.2rem;
+      padding-bottom: 15px;
+    }
+
+    .section-image {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .section-image-a {
+      max-width: 100%;
+      padding-bottom: 15px;
+    }
+
+    .section-a {
+      color: #00A862;
+      text-decoration: none !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <a class="back" href="../03_news.html">
+              <img src="../../img/project_nav/icon-chevron-left.svg" alt="">
+              企业新闻
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div id="content99">
+      <div class="header99">
+        <h1 class="header99-h1">星巴克荣获优兴咨询“2017中国最具吸引力雇主”</h1>
+        <p class="header99-p">17/07/2017</p>
+        <p class="header99-image">
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/wechat.svg" alt="">
+          </a>
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/weibo.svg" alt="">
+          </a>
+        </p>
+      </div>
+      <div class="section">
+        <p class="section-p">星巴克囊获零售业品牌榜首。</p>
+        <p class="section-image">
+          <img class="section-image-a"
+            src="../../about.image/03_news_image/new.img/universum-china-top-retail-employer.jpg" alt="">
+        </p>
+        <p class="section-p">
+          在日前揭晓的优兴咨询“2017中国最具吸引力雇主”评选中，星巴克荣获了零售品牌榜单第一名。这一奖项是由专注雇主品牌的全球人才战略公司优兴咨询，在对全国近8万名大学生进行了详实的调查之后评出的。</p>
+        <p class="section-p">
+          随着星巴克在中国业务的快速稳定发展，其优秀雇主形象也得到了众多专业机构的认可！此前，星巴克就曾连续荣膺怡安翰威特2013和2015两个年度的“中国最佳雇主”称号，并于2016年被智联招聘网评为当年“中国年度最佳雇主10强”。这次的殊荣，无疑再次肯定了星巴克在中国对于企业文化、人才培养与发展等方面的持续投入，以及所取得的卓越成绩。
+        </p>
+        <p class="section-p">“我们很高兴能够获得
+          ‘2017中国最具吸引力雇主’行业第一的称号。这份荣誉源于星巴克在中国17年的深耕，更源于星巴克中国每一位伙伴的热忱和付出。”星巴克中国人力资源副总裁位晨表示，“同时，这也充分印证了星巴克如何凭借企业的核心价值，在中国市场实现长期发展的承诺。”
+        </p>
+        <p class="section-image">
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/starbucks-partners.jpg" alt="">
+        </p>
+        <p class="section-p">
+          目前，职业发展和工作环境已成为越来越多95后选择未来雇主时的首要考量。这也是优兴咨询通过长达7个月、对全国110所重点高校的调查所分析出的未来人才职业选择的主要趋势之一。在此次优兴咨询的职业倾向调查中，星巴克取得了优异的反馈，并因此囊获了颇具含金量的“最具吸引力雇主”奖项。
+        </p>
+        <p class="section-p">
+          在星巴克，员工都被称为“伙伴”。作为独特星巴克体验的核心和灵魂，伙伴一直被视为星巴克成功的基石。从一开始，星巴克就认识到持续投资伙伴的重要性，并已经成为星巴克公司价值文化的精髓所在。星巴克给伙伴们提供了具有竞争力的保险、医疗等方面的福利，星巴克也为伙伴提供了拥有星巴克“咖啡豆股”的权利，真正成为公司一员，并与公司共享成功。今年4月，星巴克还在中国发布了伙伴父母关爱投资计划：为符合条件的星巴克中国的全职伙伴全资提供父母重疾保险，解除伙伴的后顾之忧。
+        </p>
+        <p class="section-image">
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/starbucks-partners-2.jpg" alt="">
+        </p>
+        <p class="section-p">
+          星巴克为伙伴营造温暖而有归属感的文化，每位伙伴都能找到施展自己才能的舞台，每位伙伴都可以实现自己的职业理想。星巴克为伙伴设计了一套完整的人才发展体系，其中包括成立星巴克中国大学和专为门店伙伴设计的“伙伴识天下”人才交流项目等，为每一位伙伴提供良好的个人成长机会和广阔的职业发展空间。
+        </p>
+        <p class="section-p">
+          自从1999年在中国开设第一家门店以来，中国已经成为星巴克发展最快最大的海外市场。目前星巴克已经在中国120多个城市运营超过2,600多家门店，拥有近40,000名身穿绿围裙的伙伴。星巴克将会继续珍视每一位伙伴，践行企业和伙伴共同成长与可持续发展的承诺。
+        </p>
+        <br>
+        <hr><br>
+        <h2 class="section-h2">关于星巴克咖啡公司</h2>
+        <p class="section-p">
+          星巴克咖啡公司成立于1971年，始终致力于商业道德采购并烘焙世界上高品质的阿拉比卡咖啡。今天，门店遍布全球的星巴克已经成为世界上首屈一指的专业咖啡烘焙商和零售商。通过我们的星级咖啡师，星巴克始终坚持对卓越品质和服务的承诺，遵循我们的指导原则，通过每一杯优质的咖啡为我们的顾客每天营造独特的星巴克体验。欢迎您到访我们的门店，访问星巴克中国官方网站<a
+            class="section-a" href="https://www.starbucks.com.cn/">www.starbucks.com.cn</a>或者关注星巴克中国新浪官方微博<a
+            class="section-a" href="http://weibo.com/starbucks">@星巴克中国</a>，以及星巴克中国微信官方帐号“星巴克中国”，分享独特的星巴克体验。</p>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-home.svg">
+            <img src="../../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-stores.svg">
+            <img src="../../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-account.svg">
+            <img src="../../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-menu.svg">
+            <img src="../../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-more.svg">
+            <img src="../../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="../../js/nav.js"></script>
+</body>
+
+</html>

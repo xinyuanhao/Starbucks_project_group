@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Bounds</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.2-Iconography" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Phone-Dark">
+            <rect id="Bounds" fill="#FF0000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <g id="phone" opacity="0.600000024" transform="translate(6.000000, 3.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8.88081116,17.9384239 L2.69018831,17.9384239 C1.63847628,17.9384239 0.777984623,17.0921552 0.777984623,16.0578269 L0.777984623,1.93266269 C0.777984623,0.898334328 1.63847628,0.0520656716 2.69018831,0.0520656716 L8.88081116,0.0520656716 C9.93252319,0.0520656716 10.7930149,0.898334328 10.7930149,1.93266269 L10.7930149,16.0578269 C10.7930149,17.0921552 9.93252319,17.9384239 8.88081116,17.9384239 L8.88081116,17.9384239 Z" id="Stroke-61"></path>
+                <path d="M0.762501718,13.5 L10.7929875,13.5" id="Stroke-63"></path>
+                <path d="M1,3.5 L10.9138655,3.5" id="Stroke-65"></path>
+                <path d="M6.04194501,1.5 L7.65959594,1.5" id="Stroke-67"></path>
+                <path d="M4.63946643,1.5 L4.25816391,1.5" id="Stroke-69"></path>
+                <path d="M6.4023859,15.6109254 C6.4023859,15.9483582 6.12429685,16.2218507 5.78119287,16.2218507 C5.4380889,16.2218507 5.15999985,15.9483582 5.15999985,15.6109254 C5.15999985,15.2734925 5.4380889,15 5.78119287,15 C6.12429685,15 6.4023859,15.2734925 6.4023859,15.6109254 L6.4023859,15.6109254 Z" id="Stroke-71"></path>
+            </g>
+        </g>
+    </g>
+</svg>

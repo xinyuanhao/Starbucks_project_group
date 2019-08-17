@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#menu03 .herorelative{
+    background:#fff;
+    text-align:center;
+    line-height:160%;
+}
+#menu03 .herorelative>div:nth-child(1){
+    position:relative;
+}
+#menu03 .herorelative>div>a{
+    color:#00A862;
+    text-decoration:none; /*属性规定添加到文本的修饰 	none 默认。定义标准的文本 */
+    background-color:transparent;
+}
+#menu03 .herorelative>div>a>img{
+    height:auto;
+    width:100%;
+    max-width:100%;
+    cursor:pointer;
+}
+#menu03 .herorelative>div:nth-child(2){
+    padding:30px 0;
+    margin:0 auto;
+    width:63%;
+}
+#menu03 .herorelative>div:nth-child(2)>h2{
+    margin-bottom:18px;
+    line-height: 140%;
+    font-size:1.5rem;
+    font-weight:400;
+    color:#000;
+    font-family:"Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#menu03 .herorelative>div:nth-child(2)>p{
+    padding:0 20px;
+    color:rgba(0,0,0,0.87);
+    font-size:1.0rem;
+    font-weight:400;
+    line-height:156%;
+}
+/* 中间div 其中有6个样式一致的div  */
+#menu03 .featured-items{
+    width: 100%;
+    background:#fff;
+    text-align:center;
+    padding-bottom:20px;
+    display: block;
+}
+#menu03 .item{
+    line-height:160%;
+}
+#menu03 .item>div{
+    padding:20px 0;
+    width:100%;
+    text-align:center;
+}
+#menu03 .item>div>a{
+    width:100%;
+    margin-bottom:30px;
+    position:relative;
+    display: block;
+}
+#menu03 .item>div>a>img{
+    width: 97% ;
+    height:auto;
+    display: inline-block;
+}
+#menu03 .item>div>div{
+    width:75%;
+    padding:0 24px 0 24px;
+    box-sizing: border-box;
+    margin:0 auto;
+    /* margin-left:1%; */
+    /* margin-right:1%; */
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#menu03 .item>div>div>h2{
+    margin-bottom:18px;
+    line-height:140%;
+    font-size:1.5rem;
+    font-weight:400;
+    margin-bottom: 18px;
+    color: #000;
+}
+#menu03 .item>div>div>p{
+    margin: 0 0 24px;
+    display: block;
+    line-height: 156%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+/* 第三个大div样式 */
+#menu03 .lot-items{
+  padding:40px 24px 0 24px;
+  text-align:center;  
+  /* margin-left:1%;
+  margin-right:1%; */
+  line-height:160%;
+  background:#f7f7f7;
+  min-width:730px ;
+
+}
+#menu03 .lot-items>h2{
+   margin-bottom:18px;
+   line-height:140%;
+   font-size:1.5rem;
+   font-weight:400;
+   color:#000;
+   font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+   margin:0,0,24px;
+}
+#menu03 .lot-items>div{
+    margin:-12px;
+    display: flex;
+    box-sizing:border-box;
+    flex-wrap: wrap;
+    max-width:1035px;
+    margin:0 auto; 
+}
+#menu03 .lot-items>div>div{
+    width:33%;
+    height:305px;
+}
+#menu03 .lot-items>div>div>img{
+    box-sizing:border-box;
+    padding:12px;
+    width:224px;
+    line-height: 160%;
+}
+#menu03 .lot-items>div>div>p{
+    margin-bottom:24px;
+    display:block;
+    font-size:1.0rem;
+    font-weight:400;
+}

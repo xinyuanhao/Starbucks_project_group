@@ -1,0 +1,121 @@
+#content9{
+  width:100%;height: 100%;
+}
+.header99{
+  background-color:#000;
+  height: 100%;width:100%;
+  padding:30px 26px 5px 26px;
+}
+.header-h1{
+  color:#fff;
+  font-size:2.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.header-green-p{
+  font-size: 1.4rem;
+  color:#00A862;
+  text-align: center;
+}
+.header-p{
+  font-size:1.4rem;
+  color:#fff;
+}
+.header-background-image{
+  margin:0 auto;
+  text-align: center;
+}
+.header-image{
+  background-image:url('../about.image/02_work_image/careers-cup.png');
+  height: 120px;width: 45%;
+  background-size: cover;
+  margin-left:200px;
+}
+.section{
+  padding:50px 24px 24px 24px;
+  background-color:#f7f7f7;
+  width: 100%;height: 100%;
+}
+.section-h1{
+  text-align: center;
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+}
+#section-ul{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#section-ul-1{
+  padding-left:24px;
+  padding-right:24px;
+  border-right:1px solid #EDEBE9;
+}
+#section-ul-2{
+  padding-left:24px;
+  padding-right:24px;
+}
+.ul-h3{
+  font-size: 1.6rem;
+  color:#C2A661;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.ul-p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.li-h3{
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.li-style{
+  font-size: 1.2rem;
+  padding-bottom:10px;
+}
+.ul-image-h3{
+  font-size: 1.6rem;
+  color:#C2A661;
+  margin-bottom: 18px;
+}
+#image-style{
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 25px;
+}
+#row-image{
+  max-height: 154px;
+  margin:0 6px;
+}
+.ul-image-p{
+  width:100%;
+}
+#row-ul{
+  padding-left:60px;
+}
+.img-p{
+  font-size: 1.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.university{
+  padding:10px 40px 10px 40px;
+}
+#footer-image{
+  height:200px;width: 100%;
+  background-color: #000;
+}
+#footer-image-wechat{
+  max-height:132px;
+  margin-top:30px;
+}
+#footer-image-h2{
+  font-size:4.0rem;
+  font-weight: 500;
+  color:#fff;
+  line-height:200px;
+}
+#footer-image-div{
+  text-align: center;
+}

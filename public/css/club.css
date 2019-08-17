@@ -1,0 +1,1080 @@
+/* ------------------------------------------------------------------------- */
+/* 俱乐部julebu */
+h2,
+.h2,
+.headline {
+    font-size: 22px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.page-account-starbucks-rewards {
+    background-color: #FFFFFF;
+}
+
+/* hero */
+.page-account-starbucks-rewards .hero {
+    margin-top: 0;
+    position: relative;
+}
+
+.page-account-starbucks-rewards .hero a {
+    display: block;
+}
+
+.page-account-starbucks-rewards .hero img {
+    width: 100%;
+    display: inline-block;
+}
+
+/* 1-module */
+.page-account-starbucks-rewards .new-sbux-rewards {
+    width: 100%;
+    padding: 48px 0 60px;
+}
+
+.bg-mydark {
+    background-color: #252525;
+}
+
+.relative {
+    position: relative;
+}
+
+.page-account-starbucks-rewards section .wrapper {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .title {
+    margin-bottom: 24px;
+}
+
+.page-account-starbucks-rewards section .title {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.page-account-starbucks-rewards section .title img {
+    max-height: 70px;
+}
+
+.page-account-starbucks-rewards section .title img:first-child {
+    display: inline-block;
+}
+
+.page-account-starbucks-rewards section .title img:last-child {
+    display: none;
+}
+
+.page-account-starbucks-rewards section .padded {
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item .image {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item .image img {
+    width: 120px;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item:first-child .content {
+    max-width: 90%;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item .content {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item .content p {
+    font-size: .55vw;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 140%;
+    margin: 6px 0;
+}
+
+.page-account-starbucks-rewards .new-sbux-rewards .item .content h2 {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 140%;
+}
+
+.page-account-starbucks-rewards section .padded-2 {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-account-starbucks-rewards .tips {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    padding: 0 16px;
+    line-height: 140%;
+    box-sizing: border-box;
+}
+
+.white {
+    color: #FFF;
+}
+
+/* 2-module */
+.page-account-starbucks-rewards .member-upgrade {
+    width: 100%;
+    padding: 30px 0 60px;
+}
+
+.bg-mygrey {
+    background-color: #f0efed;
+}
+
+.page-account-starbucks-rewards .member-upgrade .title {
+    margin-bottom: 24px;
+}
+
+.grid.padded-2.columns-2,
+.grid.padded-2.columns-3 {
+    margin: -12px;
+}
+
+.grid.columns-3.padded-2>* {
+    padding: 12px;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .image {
+    width: 154px;
+    margin: 0 auto;
+    display: block;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .content {
+    width: 100%;
+    display: inline-block;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .content p {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    max-width: 300px;
+    margin: 0px auto;
+    line-height: 140%;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .content p b.silver {
+    color: #999999;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .content p b.green {
+    color: #00A862;
+}
+
+.page-account-starbucks-rewards .member-upgrade .item .content p b.gold {
+    color: #C2A661;
+}
+
+/* 3-module */
+.page-account-starbucks-rewards .member-gift {
+    width: 100%;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.page-account-starbucks-rewards .bg-light-grey {
+    background-color: #f7f6f4;
+}
+
+.page-account-starbucks-rewards .member-gift .title {
+    margin-bottom: 24px;
+}
+
+.page-account-starbucks-rewards .member-gift .item {
+    position: relative;
+}
+
+.page-account-starbucks-rewards .member-gift .item .image {
+    margin: 0 auto;
+    display: inherit;
+    width: 140px;
+}
+
+.page-account-starbucks-rewards .member-gift .item span {
+    width: 24px;
+    height: 2px;
+    margin: 20px auto 20px;
+    display: block;
+}
+
+.page-account-starbucks-rewards .member-gift .item .content {
+    margin-top: 12px;
+}
+
+.page-account-starbucks-rewards .member-gift .item .content ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0px auto;
+    max-width: 190px;
+}
+
+.page-account-starbucks-rewards .member-gift .item .content ul li {
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+    padding-left: 14px;
+    position: relative;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.page-account-starbucks-rewards .member-gift .item .content ul li:before {
+    position: absolute;
+    left: 0px;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    top: 7px;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(1) span {
+    background: #999999;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(1) ul li:before {
+    background: #999999;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(2) span {
+    background: #00A862;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(2) ul li:before {
+    background: #00A862;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(3) span {
+    background: #C2A661;
+}
+
+.page-account-starbucks-rewards .member-gift .item:nth-child(3) ul li:before {
+    background: #C2A661;
+}
+
+/* 4-module */
+.page-account-starbucks-rewards .member-package {
+    width: 100%;
+    padding: 48px 0 48px 0;
+}
+
+.page-account-starbucks-rewards .member-package .title {
+    margin-bottom: 24px;
+}
+
+.myflex-column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.flex {
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.page-account-starbucks-rewards .member-package .item {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.items-center {
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.page-account-starbucks-rewards .member-package .item:first-of-type .image {
+    width: 80%;
+    max-width: 265px;
+    margin: 0 auto;
+}
+
+.page-account-starbucks-rewards .member-package .item .image {
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .member-package .item ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-account-starbucks-rewards .member-package .item ul li {
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+    padding-left: 14px;
+    position: relative;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.page-account-starbucks-rewards .member-package .item h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.page-account-starbucks-rewards .member-package .item ul li:first-child:before {
+    display: none;
+}
+
+.page-account-starbucks-rewards .member-package .item ul li:before {
+    position: absolute;
+    left: 0px;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    top: 7px;
+    background-color: #C2A661;
+}
+
+.page-account-starbucks-rewards .member-package .item p {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 12px 0;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    line-height: 140%;
+    padding-left: 14px;
+}
+
+.justify-center {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+/* 5-module */
+.page-account-starbucks-rewards .member-star-acquire {
+    padding: 48px 0 72px;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .title {
+    margin-bottom: 24px;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .padded-2.left {
+    position: relative;
+    padding-right: 5%;
+    width: 66.666%;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .padded-2.left::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    background: #C2A661;
+    left: 100%;
+}
+
+.page-account-starbucks-rewards .member-star-acquire h2 {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.page-account-starbucks-rewards .member-star-acquire .item {
+    text-align: center;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .padded {
+    padding: 0 10px;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .item .image {
+    max-width: 180px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .item p {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 140%;
+    margin-top: 6px;
+    display: inline-block;
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .padded-2.right {
+    padding-left: 5%;
+    width: 33.3333%;
+}
+
+.page-account-starbucks-rewards .member-star-acquire .item .image-small {
+    max-width: 100px;
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .mytooltip {
+    font-size: 10px;
+    line-height: 120%;
+}
+
+.page-account-starbucks-rewards .tips p {
+    margin-bottom: 0px;
+}
+
+/* 6-module */
+.page-account-starbucks-rewards .member-join {
+    padding: 48px 0 72px;
+}
+
+.page-account-starbucks-rewards .member-join .title {
+    margin-bottom: 24px;
+}
+
+.page-account-starbucks-rewards .member-join .item {
+    text-align: center;
+}
+
+.page-account-starbucks-rewards .member-join .item h2 {
+    font-weight: 500;
+    display: block;
+}
+
+.page-account-starbucks-rewards .member-join .item div {
+    display: inline-block;
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .member-join .item p {
+    text-align: center;
+    line-height: 140%;
+    max-width: 350px;
+    margin: 0 auto 24px;
+    display: block;
+}
+
+.button:after {
+    background: rgba(0, 168, 98, 0.12);
+    border-radius: 100%;
+    content: '';
+    height: 6px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1) translate(-50%);
+    top: 50%;
+    width: 6px;
+}
+
+.button:hover,
+.button:focus {
+    border-color: #1ab172;
+    color: #1ab172;
+    text-decoration: none;
+}
+
+.page-account-starbucks-rewards .member-join .grid>.item:first-of-type::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.56);
+    left: 100%;
+}
+
+/* 7-module */
+.page-account-starbucks-rewards .member-faq {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.page-account-starbucks-rewards .member-faq .title {
+    margin-bottom: 24px;
+}
+
+.page-account-starbucks-rewards .member-faq .mycard {
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mycard {
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 18px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.page-account-starbucks-rewards .member-faq .wrapper {
+    position: relative;
+}
+
+.mycard>*:last-child {
+    margin-bottom: 0;
+}
+
+.collapsible .header {
+    cursor: pointer;
+}
+
+.page-account-starbucks-rewards .member-faq .mycard .header:before {
+    padding: 34px 0px;
+}
+
+.collapsible .header:before {
+    background: url(../img/register&login/chevron\ down.png) no-repeat center center;
+    content: '';
+    float: right;
+    height: 24px;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    width: 24px;
+    background-size: contain;
+}
+
+.collapsible .header.show-con:before {
+    transform: rotate(-180deg);
+}
+
+.page-account-starbucks-rewards .member-faq .mycard .header img {
+    display: inline-block;
+    width: 54px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.page-account-starbucks-rewards .member-faq .mycard .header h2 {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.collapsible .header h2,
+.collapsible .header h3 {
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+
+.collapsible .body {
+    overflow: hidden;
+    transition-duration: 5s;
+    transition-property: max-height;
+}
+
+.collapsible .body.not-show {
+    max-height: 0;
+}
+
+.collapsible .body .container {
+    padding-top: 24px;
+}
+
+.page-account-starbucks-rewards .member-faq .padding-2em {
+    padding-left: 2em;
+}
+
+.page-account-starbucks-rewards .member-faq .mycard:nth-child(odd) {
+    background-color: #EFEEEC;
+}
+
+/* footer */
+.page-account-starbucks-rewards .libra-msr-footer {
+    background: url(../img/register&login/footer.png) no-repeat 0 0 #0E0E0E;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc {
+    text-align: center;
+    left: 0;
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 60px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc p,
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc .license {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 0 auto 8px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc p a,
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc .license a {
+    line-height: 140%;
+    color: white;
+}
+
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc p:last-child,
+.page-account-starbucks-rewards .libra-msr-footer .footer-desc .license:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+@media (min-width: 1025px) {}
+
+@media (max-width: 1024px) {
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.left .columns-3>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 33.3333333333%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 641px) {
+
+    .grid.columns-4 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 640px) {
+    .wrapper {
+        padding: 0 24px;
+    }
+
+    .grid {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid>*:nth-child(4n + 1) {
+        clear: left;
+    }
+
+    .grid>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+    }
+
+    .desktop-hidden {
+        display: none !important;
+    }
+
+    .grid.columns-3>*:nth-child(3n + 1) {
+        clear: left;
+    }
+
+    .grid.columns-3>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 33.3333333333%;
+    }
+
+    .grid.columns-3 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-account-starbucks-rewards .clubhouse section {
+        overflow: hidden;
+    }
+
+    .grid.columns-4 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tablet-hidden {
+        display: none !important;
+    }
+
+    .grid.columns-2 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 641px) {
+
+    .page-account-starbucks-rewards section .title {
+        width: 640px;
+    }
+
+    .tablet-flex-row {
+        flex-direction: row;
+    }
+
+    .grid.columns-2>*:nth-child(2n + 1) {
+        clear: left;
+    }
+
+    .grid.columns-2>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    .grid.columns-2::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+@media (max-width: 640px) {
+    .page-account-starbucks-rewards .member-package .item .image {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .page-account-starbucks-rewards .member-package .item ul li:first-child {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .page-account-starbucks-rewards .member-package .item ul li {
+        text-align: left;
+        font-size: 13px;
+        line-height: 140%;
+        padding-left: 10px;
+    }
+
+    .page-account-starbucks-rewards .member-package .item p {
+        padding-left: 12px;
+    }
+
+    .page-account-starbucks-rewards .member-package .item:first-of-type .image {
+        width: 80%;
+        max-width: 210px;
+        margin: 0 auto;
+    }
+
+    .page-account-starbucks-rewards section .padded-2 {
+        padding: 0 5%;
+    }
+
+    .page-account-starbucks-rewards .member-join .grid>.item:first-of-type::after {
+        content: " ";
+        height: 1px;
+        width: 80%;
+        left: 10%;
+        top: 120%;
+    }
+
+    .page-account-starbucks-rewards .member-join .item p {
+        font-size: 13px;
+        position: relative;
+    }
+
+    .page-account-starbucks-rewards .member-join .item h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .page-account-starbucks-rewards .member-join .item {
+        width: 96%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .page-account-starbucks-rewards .member-join .item:first-child {
+        margin-bottom: 48px;
+        position: relative;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.left::after {
+        content: " ";
+        height: 1px;
+        width: 80%;
+        left: 10%;
+        top: 100%;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .item p {
+        font-size: 13px;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .item .image {
+        width: 72px;
+        margin: 0 auto;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.right .columns-2 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.right {
+        width: 100%;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2:last-of-type {
+        margin-top: 40px;
+    }
+
+    .grid.columns-3::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.left .columns-3 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire h2 {
+        font-size: 16px;
+    }
+
+    .page-account-starbucks-rewards section .padded-2 {
+        padding: 0 5%;
+    }
+
+    .page-account-starbucks-rewards .member-star-acquire .padded-2.left {
+        width: 100%;
+    }
+
+    .grid.columns-3>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .grid.columns-3>*:nth-child(1n + 1) {
+        clear: left;
+    }
+
+    .page-account-starbucks-rewards .member-package .item {
+        margin-bottom: 24px;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item span {
+        display: none;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item {
+        padding-left: 100px;
+        margin-bottom: 12px;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        justify-content: space-around !important;
+    }
+
+    .page-account-starbucks-rewards .member-gift .grid.columns-3>* {
+        clear: left;
+        width: 100%;
+    }
+
+    .page-account-starbucks-rewards .member-gift .grid.columns-3>*:nth-child(2n + 1) {
+        clear: left;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item .content ul li {
+        text-align: left;
+        font-size: 13px;
+        line-height: 140%;
+        padding-left: 10px;
+        margin-bottom: 6px;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item .content ul {
+        padding-left: 0;
+        max-width: 300px;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item .content {
+        position: relative;
+        left: 20px;
+    }
+
+    .page-account-starbucks-rewards .member-gift .item .image {
+        top: 50%;
+        position: absolute;
+        left: 20px;
+        margin-top: -38px;
+        width: 70px;
+        padding-left: 0px;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .item .content p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .item .image {
+        width: 74px;
+        margin-right: 20px;
+        position: absolute;
+        top: 50%;
+        margin-top: -28px;
+        left: 10px;
+    }
+
+    .grid.columns-3>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .item {
+        margin-bottom: 16px;
+        padding-left: 125px;
+        position: relative;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .grid.columns-3>* {
+        clear: left;
+        width: 100%;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .grid.columns-3>*:nth-child(2n + 1) {
+        clear: left;
+    }
+
+    .grid.columns-3 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-account-starbucks-rewards section .padded-2 {
+        padding: 0 5%;
+    }
+
+    .page-account-starbucks-rewards .member-upgrade .grid {
+        width: 100%;
+        margin: 0 3%;
+    }
+
+    .page-account-starbucks-rewards .clubhouse section {
+        overflow: hidden;
+    }
+
+    .grid>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    .grid>*:nth-child(2n + 1) {
+        clear: left;
+    }
+
+    .grid.columns-4>* {
+        box-sizing: border-box;
+        clear: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    .grid.columns-4>*:nth-child(2n + 1) {
+        clear: left;
+    }
+
+    .page-account-starbucks-rewards .new-sbux-rewards .padded {
+        padding: 0 8px;
+    }
+
+    .page-account-starbucks-rewards .new-sbux-rewards .item {
+        margin-bottom: 24px;
+    }
+
+    .item.register.padden-2 {
+        margin-bottom: 60px;
+    }
+
+    .mobile-hiddens {
+        display: none !important;
+    }
+
+    .grid.columns-4 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}

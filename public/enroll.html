@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- 导入css-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- 导入3个js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css" />
+    <link rel="stylesheet" href="css/othernav.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="icon-font/iconfont.css">
+    <style>
+    </style>
+</head>
+
+<body class="page-account-starbucks-rewards">
+
+    <!-- Navigation panel -->
+
+    <nav id="nav" class="">
+        <!-- index-->
+        <div class="container ">
+            <!-- 导航栏的头部-->
+            <header class="header">
+                <a class="logo" href="/">
+                    <img src="img/project_nav/logo.svg" alt="星巴克">
+                </a>
+                <div class="primary ml-3">
+                    <ul>
+                        <li class="stores">
+                            <a id="stores-primary" href="/map.html">
+                                门店
+                            </a>
+                        </li>
+
+                        <li class="account">
+                            <a id="account-primary" href="/login.html">
+                                我的帐户
+                            </a>
+                        </li>
+
+                        <li class="menu">
+                            <a id="menu-primary" href="/menus.html">
+                                菜单
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <a class="icon trigger " id="nav-menu">
+                    <img src="img/project_nav/icon-hamburger.svg" alt="菜单">
+                </a>
+
+            </header>
+            <!-- 导航栏的body-->
+            <div class="body">
+                <div id="account-navigation" class="body">
+                    <nav data-reactroot class="container middle secondary">
+                        <div class="display-1">
+                            <span>登录或创建一个新帐户</span>
+                            <span class="icon iconfont icon-shouji"></span>
+                        </div>
+                        <div class="tabs-wrapper">
+                            <ul class="subcategories w-100">
+                                <li>
+                                    <a class="false" href="/login.html">
+                                        <span>登录</span>
+                                    </a>
+                                <li>
+                                    <a class="active" href="/enroll.html">
+                                        <span>注册</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="false" href="/club.html">
+                                        <span>关于星享俱乐部</span>
+                                    </a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- button 隐藏-->
+        <div class="overlay " id="nav-overlay">
+            <div class="container ">
+                <header class="header">
+                    <a class="logo" href="/">
+                        <img src="img/project_nav/logo.svg" alt="星巴克">
+                    </a>
+                    <button class="icon close"></button>
+                </header>
+                <section class="body w-100">
+                    <div class="container middle w-100">
+                        <ul>
+                            <li>
+                                <a id="stores-overlay" href="/map.html">门店</a>
+                            </li>
+                            <li>
+                                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+                            </li>
+                            <li>
+                                <a id="menu-overlay" href="/menus.html">菜单</a>
+                            </li>
+                            <li>
+                                <a id="shop-car" href="cart.html">购物车</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li>
+                                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+                            </li>
+                            <li>
+                                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+                            </li>
+                            <li>
+                                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+                            </li>
+                            <li>
+                                <a id="about-overlay" href="about.html/01_inchina.html">关于星巴克</a>
+                            </li>
+                            <li>
+                                <a id="help-overlay" href="javascript:;">帮助中心</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                        </ul>
+                        <footer class="account margin2 mobile-hidden">
+                            <a class="sign-in" href="/login.html">
+                                <img src="img/project_nav/icon-account.svg">
+                                <span>
+                                    <span>登录</span>
+                                </span>
+                            </a>
+                            <a class="button small register" href="/enroll.html">
+                                <span>
+                                    <span>注册</span>
+                                </span>
+                            </a>
+                        </footer>
+
+
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <a id="en-collapse" class="lang" href="javascript:;">
+                            English
+                        </a>
+                        |
+                        <a id="privacy-collapse" href="javascript:;">
+                            隐私政策
+                        </a>
+                        |
+                        <a id="terms-collapse" href="javascript:;">
+                            使用条款
+                        </a>
+                        <div class="legal">
+                            <div class="license">
+                                <span>
+                                    <a href="javascript:;">
+                                        <img width="10" height="10" src="img/project_nav/icpicon.png">&nbsp;填码网安备
+                                        todu1903—2号
+                                    </a>
+                                </span> |<br />
+                                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 注册内容 -->
+    <section id="content">
+        <!-- first-module -->
+        <div>
+            <section class="account-welcome-msr">
+                <a class="hero account-welcome-msr" href="javascript:;">
+                    <img src="img/register&login/header_cn.jpg" alt="">
+                </a>
+            </section>
+        </div>
+        <!-- second-module -->
+        <section class="join-form submit-box reg">
+            <div class="wrapper wrapper-mobile">
+                <div id="msg-box" class="my-opacity" style="top:40%;">
+                    <span>注册成功</span>
+                </div>
+                <div class="login-form">
+                    <!-- 表单 -->
+                    <div class="form-field">
+                        <!-- 用户名 -->
+                        <div class="field floating">
+                            <div class="ok">
+                                <input type="text" id="uname" name="uname" placeholder=" ">
+                                <label for="uname">用户名</label>
+                                <div class="message my-opacity">用户名不可为空</div>
+                                <div class="input-after my-d-none"></div>
+                            </div>
+                        </div>
+                        <!-- 密码 -->
+                        <div class="password-group-field">
+                            <div class="field floating">
+                                <div class="ok">
+                                    <input type="password" name="upwd" id="upwd" placeholder="  ">
+                                    <label for="upwd">密码</label>
+                                    <div class="message my-opacity">密码不可为空</div>
+                                    <div class="input-after my-d-none"></div>
+                                    <!-- 正在输入时的多行文本提示框 -->
+                                    <div class="message-do my-height0">
+                                        <div class="message" id="message-do-1">不能包括空格</div>
+                                        <div class="message" id="message-do-2">长度为6-16个字符</div>
+                                        <div class="message" id="message-do-3">必须包含大小写字母、数字</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggle-password hide"></div>
+                        </div>
+                        <!-- 邮箱 -->
+                        <div class="field floating">
+                            <div class="ok">
+                                <input type="text" name="email" id="email" placeholder="  ">
+                                <label for="email">邮箱</label>
+                                <div class="message my-opacity">邮箱不可为空</div>
+                                <div class="input-after my-d-none"></div>
+                            </div>
+                        </div>
+                        <!-- 手机号 -->
+                        <div class="field floating">
+                            <div class="ok">
+                                <input type="text" name="phone" id="phone" placeholder="  ">
+                                <label for="phone">手机号码</label>
+                                <div class="message my-opacity">手机号不可为空</div>
+                                <div class="input-after my-d-none"></div>
+                            </div>
+                        </div>
+
+
+                        <!-- 验证码模块 -->
+                        <div class="wrapper wrapper-auth my-d-none">
+                            <!-- 左侧input -->
+                            <div>
+                                <div class="field floating">
+                                    <div class="ok">
+                                        <input type="text" name="auth" id="auth" placeholder="  ">
+                                        <label for="auth">短信验证码</label>
+                                        <div class="message my-opacity">验证码不可为空</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 右侧获取验证码按钮 -->
+                            <div class="auth-btn actions">
+                                <button class="button disabled" id="sendauth">发送短信验证码</button>
+                            </div>
+                        </div>
+                        <!-- 同意条款 -->
+                        <a class="field checkbox">
+                            <input type="checkbox" id="reg-remember" value="on" checked>
+                            <label class="n-agree" id="reg-label"
+                                for="reg-remember"><span>我已阅读并同意相关服务条款和隐私政策</span></label>
+                        </a>
+                        <!-- 下拉选 -->
+                        <a class="show-message"><img src="./img/register&login/chevron down.png" alt=""></a>
+
+                        <!-- 服务条款的显示和隐藏 -->
+                        <div class="clause-box">
+                            <a href="javascript:;">《隐私权政策》</a><br>
+                            <a href="javascript:;">《其他条款与规定》</a><br>
+                        </div>
+                        <!-- 提交按钮 -->
+                        <div class="actions">
+                            <button class="button large" id="submituser">
+                                <span>立即注册</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- third-module -->
+        <section class="join-from-app">
+            <div class="wrapper-app">
+                <div class="app-register-desc">
+                    <h2 class="gold">
+                        <span>使用星巴克App进行注册</span>
+                    </h2>
+                    <p>
+                        <span>现在就下载</span><a class="link ga-view-app-page"
+                            href="javascript:;"><span>星巴克App</span></a><span>便可直接用手机进行注册、支付、查看消费记录及管理卡片。</span>
+                    </p>
+                </div>
+                <div>
+                    <img src="./img/register&login/register-download-app-image-cn.png">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- foot-nav -->
+    <div class="primary-mobile">
+        <ul class="flex justify-around logging-in-element">
+            <!-- 主页 -->
+            <li class="home" id="home-mobile">
+                <a href="/">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-home.svg">
+                        <img src="img/project_nav/icon-home-active.svg" class="active">
+                    </span>
+                    <div id="home-mobile">主页</div>
+                </a>
+            </li>
+            <!-- 门店 -->
+            <li class="stores" id="stores-mobile">
+                <a href="/map.html">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-stores.svg">
+                        <img src="img/project_nav/icon-stores-active.svg" class="active">
+                    </span>
+                    <div id="stores-mobile">门店</div>
+                </a>
+            </li>
+            <!-- 我的账户 -->
+            <li class="account" id="account-mobile">
+                <a href="/login.html" class="active">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-account.svg">
+                        <img src="img/project_nav/icon-account-active.svg" class="active">
+                    </span>
+                    <div id="account-mobile">我的账户</div>
+                </a>
+            </li>
+            <!-- 菜单 -->
+            <li class="menu" id="menu-mobile">
+                <a href="/menus.html">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-menu.svg">
+                        <img src="img/project_nav/icon-menu-active.svg" class="active">
+                    </span>
+                    <div id="menu-mobile">菜单</div>
+                </a>
+            </li>
+            <!-- 更多 -->
+            <li class="more" id="mors-mobile">
+                <a class="icon trigger" rel="nav-overlay">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-more.svg">
+                        <img src="img/project_nav/icon-more-active.svg" class="active">
+                    </span>
+                    <div id="more-mobile">更多</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/enroll.js"></script>
+</body>
+
+</html>

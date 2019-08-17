@@ -1,0 +1,109 @@
+.social{
+  width:100%;height:100%;
+}
+.header99{
+  width:100%;height:60%;
+  background-color: #f7f7f7;
+  position: relative;
+  z-index: 0;
+}
+.header99_image{
+  background-image: url('../about.image/04_social_image/Starbucks-China-Responsibility-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height:88%;
+  width: 100%;
+}
+.header99_y{
+  width:100%;height: 100%;
+  background-color:rgba(0, 0, 0, 0.6);
+  top:0;left:0;
+}
+.header99_section{
+  height:85%;
+  padding:28px 30px;
+  color:#fff;
+}
+.header99_section_h1{
+  text-align: center;
+}
+.white{
+  font-size:1.3rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.white_p{
+  font-size:1.4rem;
+  text-align: right;
+  padding-right: 40px;
+}
+.wrapper9{
+  margin-top:10px;
+  background-color:#f7f7f7;
+  margin-left:20px;
+  margin-right:20px;
+  box-shadow: 0px 0px 2px #888888;
+  padding:18px 24px;
+}
+.card99{
+  height:200px;
+  text-decoration: none !important;
+  margin-bottom: 18px;
+}
+#card9-image-1{
+  width:100%;height:192px;
+  background-image: url("../about.image/04_social_image/logo.svg");
+  background-size: 170px 170px;
+  /*不平铺*/
+  background-repeat:no-repeat;
+  /*水平垂直居中*/
+  background-position: 50% 50%;
+}
+#card9-section{
+  padding-top:18px;
+  padding-left:10px;
+  padding-right:26px;
+  margin:0 0 20px;
+  color:#000;
+}
+.wrapper9-h3{
+  padding-bottom:4px;
+}
+#card9-image-2{
+  width:100%;height:199px;
+  background-image: url("../about.image/04_social_image/NS0071.jpg");
+  background-size: 386px 200px;
+  /*不平铺*/
+  background-repeat:no-repeat;
+  /*水平垂直居中*/
+  background-position: 50% 50%;
+}
+#card9-image-3{
+  width:100%;height:199px;
+  background-image: url("../about.image/04_social_image/NS0115.jpg");
+  background-size: 386px 200px;
+  /*不平铺*/
+  background-repeat:no-repeat;
+  /*水平垂直居中*/
+  background-position: 50% 50%;
+}
+#card9-image-4{
+  width:100%;height:199px;
+  background-image: url("../about.image/04_social_image/Starbucks-ethical-sourcing-products.jpg");
+  background-size: 386px 200px;
+  /*不平铺*/
+  background-repeat:no-repeat;
+  /*水平垂直居中*/
+  background-position: 50% 50%;
+}
+#card9-image-5{
+  width:100%;height:199px;
+  background-image: url("../about.image/04_social_image/responsibility-hero-20150610141541.jpg");
+  background-size: 386px 200px;
+  /*不平铺*/
+  background-repeat:no-repeat;
+  /*水平垂直居中*/
+  background-position: 50% 50%;
+}

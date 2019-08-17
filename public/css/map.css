@@ -1,0 +1,144 @@
+#map {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/project_nav/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.map {
+    height: 100%;
+}
+
+#nav .field {
+    margin-right: 72px;
+    margin-bottom: 8px;
+}
+
+#nav .StoreLocatorSearchInput {
+    position: relative;
+}
+
+.field.search input {
+    font-weight: normal;
+    padding-right: 24px;
+}
+
+#nav .StoreLocatorSearchInput>.LocationFilter {
+    margin-bottom: 5px;
+}
+
+#min-map {
+    display: none;
+    width: 100%;
+    height: 444px;
+    background-image: url(../img/project_nav/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#content-map{
+    display: none;
+}
+
+
+@media (max-width:992px) {
+    #min-map {
+        display: block;
+    }
+    #content-map {
+        display: block;
+    }
+    #content{
+        padding: 0 24px ;
+    }
+    #nav #location-results {
+        display: none;
+    }
+
+    #content-map ul.list {
+        overflow: auto;
+        min-height: 280px;
+        margin: 0 -24px;
+        width: calc(100% + 48px);
+    }
+
+    #content-map ul.list>li {
+        display: block;
+        padding: 16px 60px;
+        font-weight: bold;
+        font-size: 15px;
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.1s;
+    }
+
+    #content-map ul.list>li:hover {
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    #content-map ul.list>li>img:first-child {
+        position: absolute;
+        top: 43%;
+        right: 24px;
+        width: 25px;
+    }
+
+    #content-map ul.list>li>.delivery {
+        margin-left: 8px;
+        width: 28px;
+        vertical-align: middle;
+    }
+
+    #content-map ul.list>li>small {
+        color: rgba(0, 0, 0, 0.56);
+        display: block;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    #content-map ul.list>li>span {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.35);
+    }
+
+    #content-map ul.list>li>.number {
+        position: absolute;
+        top: 38%;
+        left: 24px;
+        width: 26px;
+    }
+
+    #content-map ul.list>li>.number>span {
+        color: #fff;
+        line-height: 25px;
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #content-map ul.list>li>.number>img {
+        position: relative;
+        right: auto;
+        top: 0;
+        width: 26px;
+        z-index: 0;
+    }
+
+}
+@media (max-width: 640px) {
+    #nav{
+        z-index: 995;
+    }
+    .overlay{
+        z-index: 994;
+    }
+    #content {
+        padding: 0 24px 55px;
+        ;
+    }
+}

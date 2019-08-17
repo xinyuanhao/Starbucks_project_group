@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- 导入3个js-->
+
+  <link rel="stylesheet" href="css/comm.css" />
+  <link rel="stylesheet" href="css/othernav.css" />
+  <link rel="stylesheet" href="css/map.css" />
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="">
+    <!-- index-->
+    <div class="container ">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 导航栏的body-->
+      <div class="body" id="map-body">
+        <div class="react-store-locator-nav-secondary">
+          <div class="StoreLocatoreContainer" data-reactroot="">
+            <!-- 门店地址显示页内容-->
+            <nav class="container" id="locations">
+              <div class="navbar">
+                <a1 class="filters">
+                  <span>筛选</span>
+                </a1>
+                <div class="field search">
+                  <div class="StoreLocatorSearchInput">
+                    <div class="LocationFilter">
+                      <button class="LocationFilterSwitch">
+                        <img class="locator-green" src="img/project_nav/icon-locator-green.svg" alt="" />
+                        <span>北京 朝阳</span>
+                        <img class="locator-arrow" src="img/project_nav/icon-locator-arrow.svg" alt="" />
+                      </button>
+                    </div>
+                    <input type="text" placeholder="输入地址查找门店" value="">
+                    <img class="icon-search" src="img/project_nav/icon-search.svg">
+                    <ul id="autocompletedList" class="locationOptions">
+                      <li>没有找到相应结果</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="features">
+                </div>
+              </div>
+              <div id="min-map">
+              </div>
+              <ul class="list" id="location-results">
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1045 m</span>
+                  <div class="number">
+                    <span>1</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1045 m</span>
+                  <div class="number">
+                    <span>2</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1045 m</span>
+                  <div class="number">
+                    <span>3</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1045 m</span>
+                  <div class="number">
+                    <span>4</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1545 m</span>
+                  <div class="number">
+                    <span>5</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1645 m</span>
+                  <div class="number">
+                    <span>6</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">7775 m</span>
+                  <div class="number">
+                    <span>7</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">9935 m</span>
+                  <div class="number">
+                    <span>8</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">4325 m</span>
+                  <div class="number">
+                    <span>9</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+                <li class="">
+                  <img src="img/project_nav/icon-info-green.svg">
+                  北京赛特购物中心店
+                  <img class="delivery" src="img/project_nav/delivery.png">
+                  <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+                  <span class="distance">1325 m</span>
+                  <div class="number">
+                    <span>10</span>
+                    <img src="img/project_nav/icon-pin-solid-grey.svg">
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <!-- 筛选隐藏内容-->
+            <div class="overlay inner" id="overlay-locator-filters">
+              <div class="container position-relative">
+                <header class="header">
+                  <button class="icon close">
+                  </button>
+                </header>
+                <section class="body">
+                  <div class="container p-0" id="screen">
+                    <header class="header">
+                      <h2 class="display-1 m-0"><span>筛选</span></h2>
+                      <button class="link reset my-d-none">
+                        <span>清除</span>
+                      </button>
+                      <p class="light margin-b0">点击筛选出含以下商品的门店</p>
+                    </header>
+                    <a class="reserve" href="#">
+                      <img src="img/project_nav/icon-star.svg" alt="" />
+                      <span>星巴克臻选™</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="black-eagle">
+                      <img src="img/project_nav/icon-black-eagle.svg">
+                      <span>星巴克臻选™特调饮品</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="coffee-meets-ice-cream">
+                      <img src="img/project_nav/icon-coffee-meet-icecream.svg"><span>星巴克冰淇淋系列</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="nitro-cold-brew">
+                      <img src="img/project_nav/icon-nitro-coldbrew.svg"><span>气致™冷萃咖啡</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="pour-over">
+                      <img src="img/project_nav/icon-pour-over.svg">
+                      <span>手冲咖啡</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="mobile-order-pickup">
+                      <img src="img/project_nav/icon-mop.svg">
+                      <span>啡快™ – 在线点 到店取</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                    <a class="delivery">
+                      <img src="img/project_nav/delivery.png">
+                      <span>专星送™</span>
+                      <img src="img/project_nav/icon-checked-green.svg" alt="" />
+                    </a>
+                  </div>
+                </section>
+                <div class="actions visible d-table-row">
+                  <button class="button primary large my-opacity" id="filter-apply-button">
+                    <span>确认</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay " id="nav-overlay">
+      <div class="container ">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="cart.html">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="img/project_nav/icpicon.png">&nbsp;填码网安备 todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <!-- index-container -->
+  <section id="content" class="map">
+    <div id="map"></div>
+    <div id="content-map">
+      <ul class="list" id="min-results">
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1045 m</span>
+          <div class="number">
+            <span>1</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1045 m</span>
+          <div class="number">
+            <span>2</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1045 m</span>
+          <div class="number">
+            <span>3</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1045 m</span>
+          <div class="number">
+            <span>4</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1545 m</span>
+          <div class="number">
+            <span>5</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1645 m</span>
+          <div class="number">
+            <span>6</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">7775 m</span>
+          <div class="number">
+            <span>7</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">9935 m</span>
+          <div class="number">
+            <span>8</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">4325 m</span>
+          <div class="number">
+            <span>9</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+        <li class="">
+          <img src="img/project_nav/icon-info-green.svg">
+          北京赛特购物中心店
+          <img class="delivery" src="img/project_nav/delivery.png">
+          <small>北京市 朝阳区 赛特购物中心 建国门外大街22号</small>
+          <span class="distance">1325 m</span>
+          <div class="number">
+            <span>10</span>
+            <img src="img/project_nav/icon-pin-solid-grey.svg">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="img/project_nav/icon-home.svg">
+            <img src="img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html" class="active">
+          <span class="icons">
+            <img src="img/project_nav/icon-stores.svg">
+            <img src="img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-account.svg">
+            <img src="img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-menu.svg">
+            <img src="img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="img/project_nav/icon-more.svg">
+            <img src="img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/map.js"></script>
+</body>
+
+</html>

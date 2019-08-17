@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Messages Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.2-Iconography" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="icon/Messages-Dark">
+            <g id="Icons/Messages">
+                <rect id="Bounds" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <g id="Layer_1" transform="translate(3.000000, 7.000000)" stroke-linecap="round" stroke="#000000" stroke-linejoin="round">
+                    <g id="Group">
+                        <path d="M1.35,0.22 C1.4625,0.11 1.6875,0 1.9125,0 L15.8625,0 C16.5375,0 17.2125,0.55 17.2125,1.32 L17.2125,8.8 C17.2125,9.46 16.65,10.12 15.8625,10.12 L1.9125,10.12 C1.2375,10.12 0.5625,9.57 0.5625,8.8 L0.5625,3.3" id="Shape"></path>
+                        <path d="M16.2,0.33 L9.45,6.93 C9,7.37 8.325,7.37 7.875,6.93 L1.33295622,0.33" id="Shape"></path>
+                        <path d="M11.475,6.38 L15.1875,9.9" id="Shape"></path>
+                        <path d="M2.1375,9.9 L5.7375,6.38" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

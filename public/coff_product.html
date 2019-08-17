@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/comm.css" />
+  <link rel="stylesheet" href="css/othernav.css" />
+  <link rel="stylesheet" href="css/01_coffer.css"/>
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="">
+    <!-- index-->
+    <div class="container ">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <a class="back" href="/menus.html">
+              <img src="img/project_nav/icon-chevron-left.svg" alt="">
+              菜单
+            </a>
+            <div class="display-1">
+              <span>咖啡产品</span>
+            </div>
+            <div class="tabs-wrapper">
+              <ul class="subcategories w-100">
+                <li>
+                  <a class="active" href="javascript:;">
+                    <span>全部</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>咖啡豆</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>星巴克VIA® 免煮咖啡</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>星巴克臻选™咖啡</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="false" href="javascript:;">
+                    <span>Origami™</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay " id="nav-overlay">
+      <div class="container ">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="cart.html">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="Star_card.html">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <!-- 菜单 咖啡产品 页面 -->
+<div id="coff_product1">
+  <div class="bg01">
+      <!--中度烘焙 产品div  -->
+      <div>
+          <table></table>
+          <h6>中度烘焙</h6>
+          <!--中度烘焙中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                      <a href="coff_product_details.html">
+                          <img src="img/coffee product/coffee bean/01.jpg" alt=""/>
+                          <strong>星巴克®凤舞祥云综合咖啡豆</strong>
+                      </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                      <a href="coff_product_details_2.html">
+                          <img src="img/coffee product/coffee bean/02.png" alt=""/>
+                          <strong>星巴克®派克市场烘焙咖啡豆</strong>
+                      </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/03.png" alt=""/>
+                              <strong>星巴克®肯亚咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/04.png" alt=""/>
+                              <strong>星巴克®首选咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/05.png" alt=""/>
+                              <strong>星巴克®危地马拉安提瓜咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/06.png" alt=""/>
+                              <strong>星巴克®埃塞俄比亚咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/07.png" alt=""/>
+                              <strong>星巴克®哥伦比亚咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/08.jpg" alt=""/>
+                              <strong>星巴克®早餐综合咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+       <!--深度烘焙 产品div  -->
+      <div>
+          <table></table>
+          <h6>深度烘焙</h6>
+          <!--深度烘焙中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/09.png" alt=""/>
+                              <strong>星巴克®苏门答腊咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/10.png" alt=""/>
+                              <strong>星巴克®低因祥龙综合咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/11.png" alt=""/>
+                              <strong>星巴克®意式烘焙咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/12.png" alt=""/>
+                              <strong>星巴克®浓缩烘焙咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6 ">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/coffee bean/13.png" alt=""/>
+                              <strong>星巴克®佛罗娜咖啡豆</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <!--VIA'DAIRY 产品div  -->
+      <div>
+          <table></table>
+          <h6>VIA'DAIRY</h6>
+          <!--VIA'DAIRY中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX VIA  ferr-boiled coffee/01.jpg" alt=""/>
+                              <strong>星巴克VIA®香草拿铁风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX VIA  ferr-boiled coffee/02.jpg" alt=""/>
+                              <strong>星巴克VIA®焦糖拿铁风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX VIA  ferr-boiled coffee/03.jpg" alt=""/>
+                              <strong>星巴克VIA®摩卡风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <hr />
+      <!--VIA® BLACK 产品div  -->
+      <div>
+          <table></table>
+          <h6>VIA® BLACK</h6>
+          <!--VIA® BLACK中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX VIA  ferr-boiled coffee/04.jpg" alt=""/>
+                              <strong>星巴克VIA®意式烘焙免煮咖啡</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX VIA  ferr-boiled coffee/05.jpg" alt=""/>
+                              <strong>星巴克VIA®哥伦比亚免煮咖啡</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul> 
+          </div>   
+      </div>
+      <!--星巴克臻选™咖啡 产品div  -->
+      <div>
+          <table></table>
+          <h6>星巴克臻选™咖啡</h6>
+          <!--星巴克臻选™咖啡中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX selection of coffee/01.jpg" alt=""/>
+                              <strong>星巴克VIA®香草拿铁风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX selection of coffee/02.jpg" alt=""/>
+                              <strong>星巴克VIA®焦糖拿铁风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX selection of coffee/03.jpg" alt=""/>
+                              <strong>星巴克VIA®摩卡风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/SBUX selection of coffee/04.jpg" alt=""/>
+                              <strong>星巴克VIA®摩卡风味免煮咖啡固体饮料</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <hr />
+      <!--中度烘焙 产品div  -->
+      <div>
+          <table></table>
+          <h6>中度烘焙</h6>
+          <!--中度烘焙中具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/Origami/01.jpg" alt=""/>
+                              <strong>星巴克ORIGAMI™便携式滴滤咖啡（研磨咖啡粉）星巴克®派克市场烘焙咖啡系列</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div> 
+      <hr />
+      <!--深度烘焙 产品div  -->
+      <div>
+          <table></table>
+          <h6>深度烘焙</h6>
+          <!--深度烘焙具体的产品div 用ul以及栅格所写  -->
+          <div>
+              <ul class="row">
+                  <li class="col-lg-3 col-sm-4 col-msm-6">
+                      <div>
+                          <a href="#">
+                              <img src="img/coffee product/Origami/02.jpg" alt=""/>
+                              <strong>星巴克ORIGAMI™便携式滴滤咖啡（研磨咖啡粉）星巴克®佛罗娜烘焙咖啡系列</strong>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>     
+  </div>
+</div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="img/project_nav/icon-home.svg">
+            <img src="img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-stores.svg">
+            <img src="img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="img/project_nav/icon-account.svg">
+            <img src="img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="img/project_nav/icon-menu.svg">
+            <img src="img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="img/project_nav/icon-more.svg">
+            <img src="img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+<script src="js/nav.js"></script>
+</body>
+
+</html>

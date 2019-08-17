@@ -1,0 +1,665 @@
+/* --------------------------------------------------------- */
+
+/* 登录register-container */
+
+/* second-module */
+.join-form {
+    position: relative;
+    background-image: linear-gradient(to bottom, #fcfcfc 0%, #fff 100%);
+    padding: 24px 0;
+    margin-left: 2px;
+}
+
+.join-form .qrcode-login-tip {
+    width: 100px;
+    height: 100px;
+    background: url(../img/register&login/qrcode-login-tip.png) no-repeat;
+    background-size: contain;
+}
+
+.join-form .qrcode-login-tip.login-page {
+    background: url(../img/register&login/email-login-tip.png) no-repeat;
+    background-size: contain;
+}
+
+.join-form .login-strategy-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.join-form .login-strategy-switcher p {
+    padding-right: 12px;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.join-form .wrapper.wrapper-mobile {
+    max-width: 480px;
+    overflow: hidden;
+}
+
+.join-form .login-form .form-field {
+    position: relative;
+}
+
+.join-form .login-form .form-field .field.floating {
+    padding-top: 25px;
+    position: relative;
+}
+
+.field {
+    display: block;
+    margin-bottom: 18px;
+    padding-top: 25px;
+    position: relative;
+}
+
+label,
+.label {
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.field.floating input:not(:focus)+*,
+.field.floating select:not(:focus)+* {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: inherit;
+    top: 30px;
+}
+
+.field.floating label {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.field label {
+    cursor: text;
+    display: block;
+    font-size: 14px;
+    transition-duration: 0.2s;
+    position: relative;
+    transition-property: color, font-size, top;
+}
+
+.field.floating input:focus+*,
+.field.floating select:focus+*,
+.login-form>.form-field label.hasvalue {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+    top: 0px;
+}
+
+.show-password-err {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.show-password-err>div {
+    display: flex;
+    justify-content: center;
+}
+
+.show-password-err .message {
+
+    color: rgb(247, 142, 142);
+    display: block;
+    margin-top: 4px;
+    padding-left: 27px;
+    transition: all 0.2s linear;
+}
+
+.show-password-err .message {
+    background: url(../img/register&login/error.png) no-repeat left center;
+}
+
+
+
+.field .message {
+    background: url(../img/register&login/info.png) no-repeat left center;
+}
+
+.field .description,
+.field .message {
+    color: rgba(0, 0, 0, 0.56);
+    display: block;
+    margin-top: 4px;
+    padding-left: 27px;
+    transition: all 0.2s linear;
+}
+
+.field .message.err {
+    background: url(../img/register&login/error.png) no-repeat left center;
+}
+
+.field .message.succeed {
+    background: url(../img/register&login/green.png) no-repeat left center;
+}
+
+.message-do {
+    transition: all 0.2s linear;
+    height: 90px;
+    overflow: hidden;
+}
+
+.join-form .login-form .form-field .toggle-password {
+    top: 30px;
+    cursor: pointer;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 500;
+}
+
+.join-form .login-form .form-field .toggle-password.move-left {
+    right: 35px;
+}
+
+.join-form .form-field .password-group-field {
+    position: relative;
+}
+
+.join-form .login-form .form-field .toggle-password.show {
+    background: url(../img/register&login/password-01.png) no-repeat;
+    background-size: contain;
+}
+
+.join-form .login-form .form-field .toggle-password.hide {
+    background: url(../img/register&login/password-02.png) no-repeat;
+    background-size: contain;
+}
+
+.join-form .login-form .form-field .toggle-password.mright {
+    right: 45px;
+}
+
+.join-form .login-form .field.checkbox {
+    padding-top: 0px;
+    margin-top: 6px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.field.checkbox input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="button"i]:focus,
+input[type="checkbox"i]:focus,
+input[type="file"i]:focus,
+input[type="hidden"i]:focus,
+input[type="image"i]:focus,
+input[type="radio"i]:focus,
+input[type="reset"i]:focus,
+input[type="submit"i]:focus,
+input[type="file"i]:focus::-webkit-file-upload-button {
+    outline-offset: 0px;
+}
+
+.field.checkbox label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.field.checkbox label:before {
+    border: 1px solid #00A862;
+    border-radius: 8px;
+    content: '';
+    opacity: 1;
+    float: left;
+    height: 30px;
+    margin: -4px 8px 0 0;
+    width: 30px;
+}
+
+.field.checkbox label span {
+    display: block;
+    padding-left: 40px;
+}
+
+.join-form .login-form .field.checkbox label:after {
+    width: 32px;
+    height: 32px;
+    top: -4px;
+    left: 0;
+}
+
+.field.checkbox label:after {
+    border-radius: 7px;
+    background: #00A862 url(../img/register&login/icon-checked.svg) no-repeat center center;
+    opacity: 0;
+    height: 30px;
+    left: 1px;
+    position: absolute;
+    top: -3px;
+    width: 30px;
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+input[type="checkbox"]:checked+label:after,
+input[type="radio"]:checked+label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.field.checkbox label:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.ease,
+.scroll-wrapper .scroll-arrow,
+.field.checkbox span:before,
+.field.checkbox label:after,
+.field.radios span:before,
+.field.radios label:after {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.join-form .login-form>p {
+    float: right;
+    margin: 0px;
+    padding-top: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.join-form .login-form .field.captcha {
+    padding-top: 0;
+}
+
+.join-form .login-form .captchaWrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.join-form .login-form .captchaWrapper>.verification {
+    width: 300px;
+    height: 160px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap {
+    width: 280px;
+    border-top: none;
+    display: inline-block;
+    padding-left: 9px;
+    padding-right: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout {
+    text-align: left;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .info {
+    font-size: 13px;
+    padding-top: 12px;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char {
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char .left {
+    float: left;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char .cimg {
+    width: 136px;
+    height: 51px;
+    display: block;
+    cursor: pointer;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char .right {
+    border-left: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.layout .char .cinput {
+    height: 51px;
+    line-height: 51px;
+    width: 123px;
+    padding: 0 8px;
+    border: none;
+    outline: none;
+    display: block;
+    font-family: Helvtical, microsoft yahei, sans-serif;
+    font-size: 13px;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.opArea {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.opArea .iconfont {
+    text-decoration: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    float: left;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.opArea .refresh>a:before {
+    font-size: 25px;
+    color: rgb(179, 179, 179);
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.opArea .help>a:before {
+    font-size: 26px;
+    color: rgb(179, 179, 179);
+}
+
+.captcha_icon {
+    position: relative;
+}
+
+.container_wrap>.opArea .tip {
+    background-image: url(../img/register&login/aq_icon_bubbles.png);
+    background-repeat: no-repeat;
+}
+
+.container_wrap>.opArea .tip {
+    height: 40px;
+    line-height: 33px;
+    color: #007aff;
+    font-size: 13px;
+    background-position: -7px -5px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 94px;
+    top: -45px;
+    right: -67px;
+    z-index: 5;
+    color: rgb(0, 168, 98);
+}
+
+.container_wrap>.opArea .help .tip {
+    background-position: -104px -5px;
+    right: 162px;
+}
+
+.container_wrap>.opArea .refresh .tip {
+    right: 170px;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap>.opArea a:hover+span {
+    display: block;
+}
+
+.join-form .login-form .captchaWrapper>.verification>.container_wrap .opArea .btn {
+    float: right;
+    letter-spacing: 5px;
+    text-indent: 2.5px;
+    color: #FFF;
+    height: 34px;
+    width: 98px;
+    font-size: 13px;
+}
+
+.join-form .login-form .actions {
+    float: left;
+    width: 100%;
+}
+
+.button[disabled],
+.button.disabled,
+.join-form.reg .login-form button.disabled,
+.join-form.reg .login-form button.disabled:hover {
+    background: #f7f7f7;
+    border-color: #f7f7f7;
+    color: rgba(0, 0, 0, 0.38);
+    cursor: not-allowed;
+}
+
+/* qrcode-area */
+.join-form .login-form .qrcode-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 95px;
+    margin-bottom: 74px;
+}
+
+.join-form .login-form .qrcode-area .qrcode {
+    position: relative;
+    width: 258px;
+    border: 8px solid #ccc;
+    padding: 6px;
+    background-color: white;
+    margin-right: 40px;
+}
+
+.join-form .login-form .qrcode-area .qrcode>img {
+    display: block;
+}
+
+.join-form .login-form .qrcode-area>img {
+    width: 157px;
+    height: 267px;
+}
+
+/* --------------------------------- */
+/* account-conten */
+.account-join {
+    width: 100%;
+    height: auto;
+    background: url(../img/register&login/account-join-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.account-join .wrapper {
+    max-width: 720px;
+    padding: 40px 0 70px 0;
+}
+
+.account-join .padded-r2 {
+    padding-right: 0px;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.account-join .padded-r2 h2 {
+    color: white !important;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+}
+
+.account-join .padded-r2 p {
+    color: #D8D8D8 !important;
+    margin-bottom: 24px;
+}
+
+.account-join .creat-account {
+    text-align: left;
+    position: relative;
+}
+
+.account-join #create-account {
+    border-color: #C2A661 !important;
+    color: #C2A661 !important;
+}
+
+/* -------------------------------------------------------------- */
+/* 注册页面 */
+.join-form .login-form .form-field .input-after {
+    width: 30px;
+    height: 30px;
+    background: url(../img/project_nav/icon-checked-green.svg) no-repeat center center;
+    background-size: cover;
+    z-index: 501;
+    position: absolute;
+    top: 26px;
+    right: 0;
+}
+
+.join-form .login-form .wrapper.wrapper-auth {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.join-form .login-form .wrapper.wrapper-auth>div {
+    width: 45%;
+    height: 100%;
+}
+
+.join-form.reg .login-form button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #00A862;
+    color: #fff;
+}
+
+.join-form.reg .login-form button:hover {
+    background-color: #1d895c;
+}
+
+.join-form.reg .login-form a.show-message {
+    margin-left: 3px;
+    width: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.join-form.reg .login-form a.show-message.open {
+    transform: rotate(-180deg);
+}
+
+.join-form.reg .login-form div.clause-box {
+    padding-left: 30px;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+.join-form.reg .login-form div.clause-box.show-y {
+    opacity: 1;
+}
+
+.join-form.reg .login-form div.clause-box a {
+    font-size: 14px;
+}
+
+.join-form.reg .login-form div.clause-box a:hover {
+    font-size: 14px;
+    color: #1d895c;
+}
+
+.join-from-app {
+    position: relative;
+    background-image: linear-gradient(-180deg, #413b37 0%, #2d2926 100%);
+    ;
+    padding: 24px 0;
+    margin-bottom: -24px;
+
+}
+
+.join-from-app>.wrapper-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.join-from-app>.wrapper-app img {
+    width: 50%;
+}
+
+.wrapper-app .app-register-desc {
+    padding-left: 80px;
+    margin-right: 24px;
+}
+
+.wrapper-app .app-register-desc p,
+.wrapper-app .app-register-desc h2 {
+    color: #fff;
+}
+
+.wrapper-app .app-register-desc p a {
+    color: #00a862;
+}
+
+/* 登陆成功提示框 */
+#msg-box {
+    border-radius: 12px;
+    height: 50px;
+    color: #6ff399;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-size: 18px;
+    width: 130px;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.2s ease;
+}
+
+#msg-box span {
+    line-height: 50px;
+    padding: 5px 10px;
+}
+
+@media (max-width: 640px) {
+    .account-join {
+        display: none;
+    }
+
+    .join-form .login-strategy-switcher {
+        display: none;
+    }
+
+    .account-welcome-msr.hero {
+        display: none;
+    }
+
+    .join-from-app {
+        display: none;
+    }
+}

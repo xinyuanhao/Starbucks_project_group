@@ -1,0 +1,75 @@
+
+#coff_product1{
+    overflow: hidden;
+    margin:0px;
+    padding: 0px;
+    padding:0 15px 0 15px; 
+ }
+ #coff_product1 bg01{
+     width: 100%;
+     background:#f7f7f7;
+     padding-bottom: 30px;
+ }
+ #coff_product1 h6{
+     line-height:160%;
+     margin-top: 18px;
+     margin-bottom: 18px;
+ }
+ #coff_product1 ul>li{
+     list-style: none;
+     margin-bottom:30px;
+ }
+ #coff_product1 ul>li>div{
+     width: 80%;
+     margin-right: 16px;
+     margin-left:10px;
+     text-align: center;
+ }
+ #coff_product1 hr{
+     margin: 36px auto;
+     background: rgba(0, 0, 0, 0.12); 
+     border: 10px;
+     height: 2px;
+     box-sizing: content-box;
+ }
+ #coff_product1 ul>li>div>a{
+ display: block;
+ text-decoration: none;
+ text-align: center;
+ }
+ #coff_product1 ul>li>div>a img{
+     width: 80%;
+     border-radius: 50%;
+     box-shadow:0 1px 1px 1px  rgba(0, 0, 0, 0.12);
+ }
+ #coff_product1 ul>li>div>a>strong{
+     width: 100%; 
+     font-size: 90%;
+     display: block;
+     color: rgba(0,0,0,0.68);
+     text-align: center;
+ }
+ 
+ #coff_product1 ul>li>div>a:hover{
+     display: block;
+     text-decoration: none;
+     }
+ 
+ #coff_product1 ul>li{
+     height: 220px;
+ }
+ 
+ #coff_product1 ul>li div img{
+     transition:  .3s;
+ }
+ #coff_product1 ul>li div img:hover {
+     margin-top: -10px;
+     box-shadow:0 0px 1px 3px  rgba(0, 0, 0, 0.06);
+ }
+ @media (max-width: 575px){
+.col-msm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}}

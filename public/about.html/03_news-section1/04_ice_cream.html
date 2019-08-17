@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>星巴克瓶装星冰乐圣诞限量款来袭</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../css/comm.css" />
+  <link rel="stylesheet" href="../../css/othernav.css" />
+  <style>
+    #content99 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header99 {
+      background-color: #fff;
+      border-top: 2px solid #00A862;
+    }
+
+    .header99-h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2.2rem;
+      padding-bottom: 15px;
+      padding-top: 30px;
+    }
+
+    .header99-p {
+      font-size: 1.2rem;
+      text-align: center;
+      color: #C2A661;
+      font-weight: 500;
+      padding-bottom: 15px;
+    }
+
+    .header99-image {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+
+    .section {
+      background-color: #f7f7f7;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+
+    .section-p {
+      font-size: 1.2rem;
+      padding-bottom: 15px;
+    }
+
+    .section-image {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .section-image-a {
+      max-width: 100%;
+      padding-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <a class="back" href="../03_news.html">
+              <img src="../../img/project_nav/icon-chevron-left.svg" alt="">
+              企业新闻
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div id="content99">
+      <div class="header99">
+        <h1 class="header99-h1">星巴克瓶装星冰乐圣诞限量款来袭，用心填满节日星愿</h1>
+        <p class="header99-p">15/12/2017</p>
+        <p class="header99-image">
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/wechat.svg" alt="">
+          </a>
+          <a href="">
+            <img src="../../about.image/03_news_image/new.img/weibo.svg" alt="">
+          </a>
+        </p>
+      </div>
+      <div class="section">
+        <br><br>
+        <p class="section-p">冬天悄然而至，空气里的圣诞气息也越来越浓。今年圣诞，星巴克瓶装星冰乐的“星意”祝福也准时报到，为大家诚心奉上季节限量新品——节日曲奇香摩卡星冰乐。</p>
+        <p>
+          经典的圣诞红元素包裹着限量版瓶身，只一眼便唤醒你对节日的所有期待；香浓曲奇口味碰撞醇厚摩卡，更为你开启冬日里满载幸福的舌尖享受。此次限量款产品更有呆萌的“小礼物”藏于其中，为一整个圣诞季送来重重惊喜，填满所有的节日星愿！
+        </p>
+        <p class="section-image">
+          <img src="../../about.image/03_news_image/new.img/christmas-frappuccino-01.jpg" alt="">
+        </p>
+        <h2>曲奇香摩卡风味，解锁瓶中“星”滋味</h2>
+        <p class="section-p">
+          节日曲奇香摩卡星冰乐在口感上更加丰富且有层次感：曲奇风味洋溢着刚出炉般浓郁诱人的烘焙香气，和摩卡咖啡原有的丝滑可可味相互融合，醇与香紧紧包裹味蕾，让唇齿间萦绕着愉悦浪漫的节日气息。而作为一款即饮咖啡，瓶装星冰乐能够满足随时随地都能享用高品质咖啡的需求，用一整瓶醇美芬芳的滋味，缓和了都市生活的忙碌脚步。
+        </p>
+        <p class="section-p">
+          除了好喝的味道，限量款节日曲奇香摩卡星冰乐的圣诞红装也为这个节日季增添了多一份欢愉。瓶身上的金色流线设计搭配红色元素，让时尚靓丽的圣诞气息扑面而来。在令人期待的圣诞季，限量款瓶装星冰乐相信会是你最应季的饮品选择。不想错过这份圣诞限量饮品带来的全新体验？快来拥有今年的“圣诞红瓶”吧！
+        </p>
+        <h2>小动物点缀咖啡瓶，萌翻圣诞</h2>
+        <p class="section-p">
+          除了限量美味，瓶装星冰乐还为你带来了特别定制的多重惊喜！即日起，只要购买六瓶一套的节日曲奇香摩卡星冰乐套装，即可随机获赠圣诞小熊、雪人或企鹅挂坠一枚和圣诞贴纸一套。将挂坠悬挂在特制的红色瓶盖上，咖啡瓶就能瞬间成为圣诞节一款别出心裁的萌物装饰；你也可以充分利用起贴纸，将蝴蝶结、圣诞拐杖、钟形圣诞铃铛等经典图案自由组合，贴在玻璃瓶身上，创造出属于自己的创意“圣诞红瓶”。
+        </p>
+        <p class="section-image">
+          <img src="../../about.image/03_news_image/new.img/christmas-frappuccino-02.jpg" alt="">
+        </p>
+        <p class="section-p">
+          临近岁末，对新一年的期许和祝福也慢慢变多——为新年制定的目标，对节日的期待，对亲朋好友的祝福……瓶装星冰乐邀请你将对新年的美好展望和祝愿，和萌萌的小动物一起装进瓶中，再通过瓶子将它们保存起来或传递出去，开启温暖且满含好意的新一年。
+        </p>
+        <h2>更多创意灵感 传递节日星愿</h2>
+        <p class="section-p">
+          小巧瓶身配上节日风的圣诞红装，今年的节日限量瓶装星冰乐足够激发你的创造力，让装载其中的心意变得更加与众不同！玻璃瓶洗干净之后，稍稍做一些DIY就可以变身创意装饰。比如在瓶内装入应景的各色节日小灯泡，然后在瓶口放上一个蜡烛，就可以让它变成烘托圣诞节气氛的装饰烛台。
+        </p>
+        <p>
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/christmas-frappuccino-03.jpg"
+            alt="">
+        </p>
+        <p class="section-p">你也可以试试为可爱的小雪人布置瓶中雪景，做些瓶盖DIY，一个迷你白色平安夜的场景就能被你捧在手心。</p>
+        <p class="section-image">
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/christmas-frappuccino-04.jpg"
+            alt="">
+        </p>
+        <p class="section-p">
+          如果你想玩出更多花样，剪纸、涂色、插花等方式会让你的创意不断发酵。将这样一个创意十足的“圣诞红瓶”作为礼物送给身边的伙伴亲人，传递节日祝福，他们也一定会感受到你的心意。这个冬天，让瓶装星冰乐不仅仅给你一瓶充满节日快乐的饮料，更满足你的活跃思维和无穷想象！自己动手，用心装满星愿，也用心连接彼此，让这个冬天变得有趣又温情！
+        </p>
+        <p class="section-image">
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/christmas-frappuccino-05.jpg"
+            alt="">
+        </p>
+        <p class="section-image-a">
+          <img class="section-image-a" src="../../about.image/03_news_image/new.img/christmas-frappuccino-06.jpg"
+            alt="">
+        </p>
+        <p class="section-p">
+          不论是饮品口味还是包装设计，星巴克瓶装星冰乐此次带来的节日限量款都是诚意满满。当圣诞彩灯亮起之时，别忘了来一瓶曲奇香摩卡星冰乐，发挥你的巧思将节日星愿填入瓶中，点缀你的新年并将它分享给身边更多的人。带着满满的好心情和祝福，去迎接新的一年吧！
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-home.svg">
+            <img src="../../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-stores.svg">
+            <img src="../../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-account.svg">
+            <img src="../../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-menu.svg">
+            <img src="../../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-more.svg">
+            <img src="../../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="../../js/nav.js"></script>
+</body>
+
+</html>

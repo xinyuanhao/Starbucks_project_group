@@ -1,0 +1,101 @@
+.news03{
+  margin:0 auto;
+  width:100%;height: 100%;
+  background-color: #f7f7f7;
+}
+.news03 .news03-h1{
+  text-align: center;
+  color:#fff;
+  font-weight: 700;
+  font-size:2.8rem !important;
+  line-height: 300px;
+}
+.news03 .news03-image{
+  background-image:url('../about.image/03_news_image/kv-starbucks-store.jpg');
+  width:100%;
+  height:300px;
+  background-position: 50% 50%;
+  background-size:cover;
+  position: relative;
+}
+.news03 .image-color{
+  background-color:rgba(0,0,0,0.5);
+  height: 300px;
+}
+.news03 .wrapper1{
+  width:100%;
+  background-color: #f7f7f7;
+  padding:30px 24px 24px 24px;
+}
+.news03 .list{
+  list-style: none;
+  padding-left:15px;
+}
+.news03 .list-li{
+  width:100%;height: 200px;
+  box-shadow:1px 1px 2px #888888;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+.news03 #wrapper1-image-1{
+  background-image: url('../about.image/03_news_image/feikuai-bj-cover.jpg');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+.news03 #wrapper1-section{
+  color:#000;
+  padding-top:20px;
+  padding-left:25px;
+  padding-right:25px;
+}
+.news03 .wrapper1-h3{
+  padding-bottom: 10px;
+}
+.news03 .wrapper1-p{
+  font-size:1.2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.news03 .wrapper1-p1{
+  font-size:1.2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.news03 .move-a{
+  text-decoration: none !important;
+}
+.news03 #wrapper1-image-2{
+  background-image: url('../about.image/03_news_image/starbucks-now-cover.png');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+.news03 #wrapper1-image-3{
+  background-image: url('../about.image/03_news_image/China_20th_anniversary.png');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+.news03 #wrapper1-image-4{
+  background-image: url('../about.image/03_news_image/christmas-frappuccino-06.jpg');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+.news03 #wrapper1-image-5{
+  background-image: url('../about.image/03_news_image/beijingfang3.jpg');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+.news03 #wrapper1-image-6{
+  background-image: url('../about.image/03_news_image/starbucks-partners-2.jpg');
+  height: 200px;
+  background-position: 50% 50%;
+  background-size:cover;
+}

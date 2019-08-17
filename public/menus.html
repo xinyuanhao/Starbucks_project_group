@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- 导入css-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- 导入3个js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css" />
+    <link rel="stylesheet" href="css/othernav.css" />
+    <link rel="stylesheet" href="css/03_Menu Home Page.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation panel -->
+
+    <nav id="nav" class="">
+        <!-- index-->
+        <div class="container ">
+            <!-- 导航栏的头部-->
+            <header class="header">
+                <a class="logo" href="/">
+                    <img src="img/project_nav/logo.svg" alt="星巴克">
+                </a>
+                <div class="primary ml-3">
+                    <ul>
+                        <li class="stores">
+                            <a id="stores-primary" href="/map.html">
+                                门店
+                            </a>
+                        </li>
+
+                        <li class="account">
+                            <a id="account-primary" href="/login.html">
+                                我的帐户
+                            </a>
+                        </li>
+
+                        <li class="menu">
+                            <a id="menu-primary" href="/menus.html">
+                                菜单
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <a class="icon trigger " id="nav-menu">
+                    <img src="img/project_nav/icon-hamburger.svg" alt="菜单">
+                </a>
+
+            </header>
+            <!-- 菜单的body-->
+            <div class="body">
+                <div id="account-navigation" class="body">
+                    <nav data-reactroot class="container middle secondary">
+                        <div class="display-1">
+                            <span>菜单</span>
+                        </div>
+                        <div class="tabs-wrapper">
+                            <ul class="subcategories w-100">
+                                <li>
+                                    <a class="active" href="#">
+                                        <span>季度精选</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="false" href="/menus_d.html">
+                                        <span>饮料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="false" href="javascript:;">
+                                        <span>美食</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="false" href="coff_product.html">
+                                        <span>咖啡产品</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="false" href="javascript:;">
+                                        <span>商品</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- button 隐藏-->
+        <div class="overlay " id="nav-overlay">
+            <div class="container ">
+                <header class="header">
+                    <a class="logo" href="/">
+                        <img src="img/project_nav/logo.svg" alt="星巴克">
+                    </a>
+                    <button class="icon close"></button>
+                </header>
+                <section class="body w-100">
+                    <div class="container middle w-100">
+                        <ul>
+                            <li>
+                                <a id="stores-overlay" href="/map.html">门店</a>
+                            </li>
+                            <li>
+                                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+                            </li>
+                            <li>
+                                <a id="menu-overlay" href="/menus.html">菜单</a>
+                            </li>
+                            <li>
+                                <a id="shop-car" href="cart.html">购物车</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li>
+                                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+                            </li>
+                            <li>
+                                <a id="svc-overlay" href="Star_card.html">星礼卡</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+                            </li>
+                            <li>
+                                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+                            </li>
+                            <li>
+                                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+                            </li>
+                            <li>
+                                <a id="about-overlay" href="about.html/01_inchina.html">关于星巴克</a>
+                            </li>
+                            <li>
+                                <a id="help-overlay" href="javascript:;">帮助中心</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                        </ul>
+                        <footer class="account margin2 mobile-hidden">
+                            <a class="sign-in" href="/login.html">
+                                <img src="img/project_nav/icon-account.svg">
+                                <span>
+                                    <span>登录</span>
+                                </span>
+                            </a>
+                            <a class="button small register" href="/enroll.html">
+                                <span>
+                                    <span>注册</span>
+                                </span>
+                            </a>
+                        </footer>
+
+
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <a id="en-collapse" class="lang" href="javascript:;">
+                            English
+                        </a>
+                        |
+                        <a id="privacy-collapse" href="javascript:;">
+                            隐私政策
+                        </a>
+                        |
+                        <a id="terms-collapse" href="javascript:;">
+                            使用条款
+                        </a>
+                        <div class="legal">
+                            <div class="license">
+                                <span>
+                                    <a href="javascript:;">
+                                        <img width="10" height="10" src="img/project_nav/icpicon.png">&nbsp;填码网安备
+                                        todu1903—2号
+                                    </a>
+                                </span> |<br />
+                                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </nav>
+    <section id="content">
+        <div class="content1" id="menu03">
+            <!-- 头部div -->
+            <div class="herorelative">
+                <div>
+                    <a href="#">
+                        <img src="img/Menu Home Page/01banner-1.jpg">
+                    </a>&nbsp;
+                </div>
+                <div>
+                    <h2>玩味冰调™ 夏天自造</h2>
+                    <p>窗外蝉鸣声响起，那是夏天又来到的信号。</br>
+                        &nbsp;
+                        &nbsp;这次，我们将用玩味冰调™致敬夏天，用焕然一新的沁凉活力，赶走夏日的沉闷，自在享受夏日时光。富于层次感的口感，带来不一样的味蕾体验。零脂、真材实料、不添加化学合成色素和甜味剂，让这一杯带你轻盈一“夏”。
+                    </p>
+                </div>
+            </div>
+            <!-- 中间div 其中有6个样式一致的div -->
+            <div class="featured-items">
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/02banner-2.jpg">
+                        </a>
+                        <div>
+                            <h2>选你所爱</h2>
+                            <p>
+                                星冰乐升级回归啦！清新的草莓酸奶，酸甜丰富，果肉饱满，草莓爱好者可以大快朵颐啦~浓郁的香草摩卡，将优质的香草与精选的可可粉融入奶香星冰乐中，碰撞出一杯夏日味蕾盛宴。清新还是浓郁？快来选你所爱吧。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/03banner-3.jpg">
+                        </a>
+                        <div>
+                            <h2>一口轻盈 清爽一夏</h2>
+                            <p>
+                                星轻盈系列，蛋糕也可以清爽一夏无负担。
+                                采用风味酸奶为原料，搭配大颗真实果粒，清新轻甜，满足想吃甜点的小心思。
+                                这一季还加入新品夏日趣玩西小瓜蛋糕，夏日风味，轻盈无负担，可爱又好吃，还可以很好玩哦~
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/04banner-4.jpg">
+                        </a>
+                        <div>
+                            <h2>趣玩一夏</h2>
+                            <p>
+                                从玩味冰杯设计中精心挑选出三款设计作为星礼卡卡面设计，每款搭配上不同形象的卡套挂件，同时背面可自由DIY你的活力与张扬，让这个夏天充满新奇与乐趣。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/05banner-5.jpg">
+                        </a>
+                        <div>
+                            <h2>盛夏甜心</h2>
+                            <p>
+                                在这个夏天，我们又迎来了一群新的小伙伴！它们是羊驼、树懒、浣熊和小松鼠。这群可爱的小伙伴们善良、温和，喜欢交朋友。这次它们来到了彩虹奇幻乐园，希望能够与我们来一次亲密的接触，让我们一起徜徉在咖啡的奇妙世界里吧！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/06banner-6.jpg">
+                        </a>
+                        <div>
+                            <h2>“泰”美好</h2>
+                            <p>
+                                “MUAN
+                                JAI”它的名字在泰国北方方言中有“全心全意寻找幸福”之意。这些产自泰国的咖啡豆有着厚重和圆润的口感，并伴有香料般的风味。这一次，我们选择它和亚太其他产区的高醇度咖啡豆拼合，每一口弥漫着胡椒般风味和森林般的清香。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <a href="#">
+                            <img src="img/Menu Home Page/07banner-7.jpg">
+                        </a>
+                        <div>
+                            <h2>属于盛夏的咖啡香气</h2>
+                            <p>
+                                口感无可挑剔而层次丰富的精选咖啡豆，令人期待又愉悦。</br>
+                                轻尝尽享独特风味，盈盈果香与清甜花香平衡绽放于味蕾。</br>
+                                薰衣草般香气与樱桃可乐同多汁柠檬般口味的相遇，唤起仲夏美梦
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 最后div 详品介绍的div -->
+            <div class="lot-items">
+                <h2>所有新品</h2>
+                <div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/01blueberry-passion-pearl-fizz.jpg" />
+                        <p>蓝莓星空</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/02citrus-mint-mojito.jpg" />
+                        <p>橘香茉吉托</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/03cold-brew-lemon-sour.jpg" />
+                        <p>酸柠浮冷萃</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/04peach-shrub-fizz.jpg" />
+                        <p>醋意桃桃</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/05pomegranate-pearl-fizz.jpg" />
+                        <p>石榴仲夏梦</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/06sparkling-espresso-tonic.jpg" />
+                        <p>气炫冰山美式</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/07sparkling-pink-pom-cold-brew.jpg" />
+                        <p>璃光石榴冷萃</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/08triple-citrus.jpg" />
+                        <p>橙柚派对</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/09strawberry-yogurt-frappuccino.jpg" />
+                        <p>草莓酸奶星冰乐</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/10madagascar-vanilla-dark-mocha-frappuccino.jpg" />
+                        <p>马达加斯加香草摩卡星冰乐</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/11watermelon-flavored-cake.jpg" />
+                        <p>夏日趣玩西小瓜蛋糕</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/12teavana-peach-millie-crepe-cake.jpg" />
+                        <p>茶瓦纳桃桃千层蛋糕</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/13muan-jai-blend.jpg" />
+                        <p>欢庆综合咖啡</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/14iced-coffee-blend.jpg" />
+                        <p>花谢清风综合咖啡</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/15colombia-timbio.jpg" />
+                        <p>哥伦比亚庭比奥咖啡豆</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/16papua-new-guinea-arona-valley.jpg" />
+                        <p>巴布亚新几内亚阿罗纳山谷咖啡豆</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/17ruwanda-muhondo.jpg" />
+                        <p>卢旺达穆洪多咖啡豆</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/18wb4.jpg" />
+                        <p>日晒埃塞俄比亚卡永山农场咖啡</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/19summer-cup-art-fun-sr-kit-set.jpg" />
+                        <p>趣玩一夏会员星礼包系列</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/20summer-sparkling-cold-brew-sr-kit-set.jpg" />
+                        <p>冷萃会员星礼包</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/21mer-1.jpg" />
+                        <p>20oz粉红夏日动物款塑料吸管杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/22mer-2.jpg" />
+                        <p>16oz羊驼款塑料吸管杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/23mer-3.jpg" />
+                        <p>12oz彩虹款单层玻璃杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/24mer-4.jpg" />
+                        <p>16oz夏日款粉色玻璃吸管杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/25mer-5.jpg" />
+                        <p>350ml膳魔师妙趣萌萌款保温杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/26mer-6.jpg" />
+                        <p>290ml膳魔师妙趣之选保温杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/27mer-7.jpg" />
+                        <p>12oz粉粉草莓款保温杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/28mer-8.jpg" />
+                        <p>16oz快乐动物款保温瓶</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/29mer-9.jpg" />
+                        <p>动物款系列款磁铁弯折杯垫</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/30mer-10.jpg" />
+                        <p>可爱动物款搅拌棒</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/31mer-11.jpg" />
+                        <p>10oz场景随行杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/32mer-12.jpg" />
+                        <p>750毫升Contigo粉粉草莓款锁扣畅饮杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/33mer-13.jpg" />
+                        <p>14oz草莓浣熊款玻璃杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/34mer-14.jpg" />
+                        <p>17oz水晶球造型吸管杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/34mer-15.jpg" />
+                        <p>13oz水果造型系列搪瓷杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/36mer-16.jpg" />
+                        <p>12oz羊驼造型茶漏马克杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/37mer-17.jpg" />
+                        <p>3oz动物造型迷你马克杯碟组</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/38mer-18.jpg" />
+                        <p>12oz呆萌浣熊款马克杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/39mer-19.jpg" />
+                        <p>12oz草莓松鼠款马克杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/49mer-29.jpg" />
+                        <p>8ozStanley酷黑酒壶 & Stanley酒壶套</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/50mer-30.jpg" />
+                        <p>24oz粉嫩夏季款塑料吸管杯 & 草莓造型流沙挂件</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/51mer-31.jpg" />
+                        <p>8oz夏日水果款塑料随行杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/52mer-32.jpg" />
+                        <p>350ml蓝色云朵乐园款马克杯</p>
+                    </div>
+                    <div>
+                        <img src="img/Menu Home Page/list view/53mer-33.jpg" />
+                        <p>550ml膳魔师梦幻彩虹款保温杯</p>
+                    </div>
+                    <!-- 最后div结尾 -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- foot-nav -->
+    <div class="primary-mobile">
+        <ul class="flex justify-around logging-in-element">
+            <!-- 主页 -->
+            <li class="home" id="home-mobile">
+                <a href="/">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-home.svg">
+                        <img src="img/project_nav/icon-home-active.svg" class="active">
+                    </span>
+                    <div id="home-mobile">主页</div>
+                </a>
+            </li>
+            <!-- 门店 -->
+            <li class="stores" id="stores-mobile">
+                <a href="/map.html">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-stores.svg">
+                        <img src="img/project_nav/icon-stores-active.svg" class="active">
+                    </span>
+                    <div id="stores-mobile">门店</div>
+                </a>
+            </li>
+            <!-- 我的账户 -->
+            <li class="account" id="account-mobile">
+                <a href="/login.html">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-account.svg">
+                        <img src="img/project_nav/icon-account-active.svg" class="active">
+                    </span>
+                    <div id="account-mobile">我的账户</div>
+                </a>
+            </li>
+            <!-- 菜单 -->
+            <li class="menu" id="menu-mobile">
+                <a href="/menus.html" class="active">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-menu.svg">
+                        <img src="img/project_nav/icon-menu-active.svg" class="active">
+                    </span>
+                    <div id="menu-mobile">菜单</div>
+                </a>
+            </li>
+            <!-- 更多 -->
+            <li class="more" id="mors-mobile">
+                <a class="icon trigger" rel="nav-overlay">
+                    <span class="icons">
+                        <img src="img/project_nav/icon-more.svg">
+                        <img src="img/project_nav/icon-more-active.svg" class="active">
+                    </span>
+                    <div id="more-mobile">更多</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

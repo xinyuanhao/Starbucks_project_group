@@ -1,0 +1,331 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+#details04{
+    overflow: hidden;
+}
+#details04 .products{
+    background:white;
+}
+#details04 .tablet-flex{
+    flex-direction: column; /*项目的方向  column垂直显示*/
+    display: flex;/*弹性布局*/
+    line-height: 160%;
+}
+#details04 .flex-column{
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    flex-direction: row !important; /*项目的方向  row默认值。灵活的项目将水平显示*/
+}
+#details04 .flex-column>div:first-child{
+    box-sizing: border-box;
+    padding:48px 24px 48px 48px;
+}
+#details04 .flex-column>div:first-child>img{
+    width:100%;
+    background-size: cover; /*背景图像的尺寸 完全覆盖背景区域*/
+    background-position: 50% 50%; /*背景图像的起始位置中间*/
+}
+#details04 .flex-column>div:nth-child(2){
+    box-sizing: border-box;
+    padding:48px 24px 48px 48px;
+    line-height: 160%;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+/* <!-- 左边详情div -->*/
+#details04 .section{
+    padding-bottom:0;
+    padding-top:0;
+}
+#details04 .section>p:nth-child(1){
+    color: #C2A661;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: block;
+}
+#details04 .section>h1{
+    margin-bottom: 12px;
+    line-height:140%;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+#details04 .section>p:nth-child(3){ 
+    margin: 0 0 24px;
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+}
+#details04 .section>div:nth-child(4){
+    margin: 0 0 24px;
+}
+#details04 .section>div:nth-child(4)>ul{
+    list-style: none;
+    margin: 0;
+}
+#details04 .section>div:nth-child(4)>ul>li{
+    margin: 0 0 24px;
+    padding: 0;
+    display: list-item;/*display:list-item为元素内容生成一个块型盒，随后再生成一个列表型的行内盒*/
+    list-style: none;
+    letter-spacing: 0.4px;
+}
+#details04 .section>div:nth-child(4)>ul>li>p{
+    color: rgba(0, 0, 0, 0.56);
+}
+#details04 .section>div:nth-child(4)>ul>li>div{
+    margin-top: 6px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 24px;
+    width: 100%;
+    line-height: 160%;
+}
+#details04 .section>div:nth-child(4)>ul>li:nth-child(1)>div>div{
+    width: 50%;
+}
+#details04 .section>div:nth-child(4)>ul>li:nth-child(2)>div>div{
+    width: 25%;
+}
+#details04 .section>div:nth-child(4)>ul>li:nth-child(3)>div>div{
+    width: 50%;
+}
+#details04 .section>div:nth-child(4)>ul>li>div>div{
+    background-image:url('./img/coffee product/coffee bean/details/01menu-bg-apron.png');
+    background: #00A862;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #FFF;
+    min-height: 6px;
+}
+#details04 .section>div:nth-child(5){
+    display: block;
+}
+#details04 .section>div:nth-child(5)>table{
+    width:100%;
+    font-size:inherit;
+    text-align: left;
+}
+#details04 .section>div:nth-child(5)>table>tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+#details04 .section>div:nth-child(5)>table>tbody>tr{
+    border-top: none;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.0005); */
+    color: rgba(0, 0, 0, 0.56);
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+#details04 .section>div:nth-child(5)>table>tbody>tr>td:nth-child(1){
+    padding-left: 0 !important;
+    font-weight: 700;
+    border: 0;
+    padding: 12px;
+}
+#details04 .section>div:nth-child(5)>table>tbody>tr>td:nth-child(2){
+    padding-right: 0 !important;
+    border: 0;
+    padding: 12px;
+}
+#details04 .section-wrapper{
+    padding:24px 16px 72px 16px;
+    max-width: 100%;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    display: block;
+    line-height: 160%;
+    letter-spacing: 0.4px;
+}
+#details04 .section-wrapper>div:nth-child(1){
+    max-width:100%;
+    padding:0 24px;
+}
+#details04 .section-wrapper>div:nth-child(1)>h2{
+    margin-bottom:18px;
+    line-height: 140%;
+    font-size: 1.3rem !important;
+    font-weight: 400 ;
+}
+#details04 .section-wrapper>div:nth-child(2){
+    margin-left: -24px;
+    margin-right: -24px;
+    position: relative;
+    overflow: hidden;
+    /*margin-bottom: -24px;
+    padding-bottom: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;/*置如何处理元素内的空白  nowrap空白会被浏览器忽略
+    width: 100%;*/
+}
+#details04 .section-wrapper>div>div:nth-child(1){
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+    height: 30px;
+    margin-top: -16px;
+    position: absolute;
+    padding: 0px 0px;
+    text-align: center;
+    top: 50%;
+    width: 30px;
+    z-index: 1;
+    left: 30px;
+    margin-bottom: -24px;
+    transition: .3s;
+}
+#details04 .section-wrapper>div>div:nth-child(3){
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+    height: 30px;
+    margin-top: -16px;
+    position: absolute;
+    padding: 2px 0px;
+    text-align: center;
+    top: 50%;
+    width: 30px;
+    z-index: 1;
+    right: 30px;
+    transition:.3s
+}
+#details04 .section-wrapper>div>div:nth-child(2){
+    margin-bottom: -24px;
+    padding-bottom: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width:100%;
+}
+#details04 .section-wrapper>div>div>div{
+    padding:8px 24px 0 24px; 
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s;
+
+}
+#details04 .section-wrapper>div>div>div>a{
+    margin:0 16px 0 24px;
+    width: 132px;
+    color: inherit;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s;
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(1)>div{ 
+    background-image: url('../img/coffee product/coffee bean/02.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(2)>div{
+    background-image: url('../img/coffee product/coffee bean/03.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(3)>div{ 
+    background-image: url('../img/coffee product/coffee bean/04.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(4)>div{
+    background-image: url('../img/coffee product/coffee bean/05.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(5)>div{ 
+    background-image: url('../img/coffee product/coffee bean/01.jpg');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(6)>div{
+    background-image: url('../img/coffee product/coffee bean/07.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(7)>div{ 
+    background-image: url('../img/coffee product/coffee bean/08.jpg');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(8)>div{
+    background-image: url('../img/coffee product/coffee bean/09.png');
+}
+#details04 .section-wrapper>div>div>div>a:nth-child(9)>div{
+    background-image: url('../img/coffee product/coffee bean/10.png');
+}
+#details04 .section-wrapper>div>div>div>a>div{
+    max-width: 150px;
+    width: 100%;
+    height:132px;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto 6px
+}
+#details04 .section-wrapper>div>div>div>a>strong{
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
+#details04 .section-wrapper>div>div>img{
+ width:25px;
+ margin:0 auto !important;
+ text-align: center;
+}
+#details04 .section-wrapper>div>div>div>a:hover{
+    margin-top: -10px;
+    /* box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 6.12); */
+}
+#details04 .section-wrapper>div>div>div>a>div:hover{
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.15);
+} 
+/* 左边按钮 */
+#details04 .section-wrapper>div>div:nth-child(1):hover{
+    margin-left: -5px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+#details04 .section-wrapper>div>div:nth-child(3):hover{
+    margin-right: -5px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.back-phone{
+    display: none;
+}
+@media (max-width: 991px) and (min-width: 641px){
+    #nav>.container .body>.container {
+        padding: 0 16px 20px 16px;
+    }
+}
+@media (max-width: 640px) {
+    #details04 .flex-column{
+        flex-direction:column !important;
+    }
+    #nav .container .secondary .back{
+        display: none;
+    }
+    #details04 .flex-column>div:first-child{
+        position: relative;
+        padding: 0;
+    }
+    .back-phone {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background:#F5F5F5;
+        display: inline-block;
+        float: left;
+        font-size: 0px;
+        margin: 13px 8px 1px 0;
+        padding: 3px;
+        height: 28px;
+        width: 28px;
+        position: absolute;
+        left: 16px;
+        top: 16px;
+    }
+
+}

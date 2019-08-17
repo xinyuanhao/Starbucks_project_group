@@ -1,58 +1,63 @@
 *{margin: 0;padding: 0;}
+body section{
+    height: 100%;
+}
 
-.container{
+section .container{
     max-width: 100%;
 }
 
 /*container下的div*/
-.container>div{
+section .container>div{
     padding-bottom: 24px;
     padding-top: 24px;
 }
 
 /*h3标签的class*/
-.caption{
-    color: rgba(0, 0, 0, 0.56);
+section .caption{
+    color: rgba(110, 58, 58, 0.56);
     font-size: 1rem;
     margin-bottom: 20px;
 }
 
 /*ul标签的class*/
-.grid{
+section .grid{
     list-style: none;
     text-align: center;
 }
 
 /*ul下的li标签*/
-.grid li{
+section .grid li{
     padding: 16px;
 }
 
 /*a标签的class*/
-.thumbnail{
+section .thumbnail{
     width: 100%;
     font-size: 1rem;
 }
 
 /*ul和a标签的class*/
-.grid .thumbnail{
+section .grid .thumbnail{
     display: block;
     text-decoration: none;
     color: inherit; 
 }
 
 /*a下div标签的class*/
-.circle{
+section .circle{
     border-radius: 50%;
+    max-width: 150px;
     box-shadow:0 1px 1px 1px rgba(0, 0, 0, 0.12);
 }
-.circle::before{
+section .circle::before{
     content: "";
     display: block;
-    padding-top: 100%;
+    /* padding-top: 100%; */
 }
-.thumbnail .picture{
+section .thumbnail .picture{ 
     width: 150px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,21 +66,21 @@
 }
 
 /*a标签下的strong标签*/
-.thumbnail>strong{
+section .thumbnail>strong{
     display: block;
     width: 100%;
 }
 
 /*状态*/
-.grid a{
+section .grid a{
     transition: .5s;
 }
-.grid a:hover{
+section .grid a:hover{
     transform: translateY(-10px); 
 }
 
 /*分割线*/
-hr{
+section hr{
     background: rgba(0, 0, 0, 0.12);
     border: 0;
     height: 1px;

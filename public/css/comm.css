@@ -1,0 +1,27 @@
+/*css reset*/
+* {
+    maring: 0;
+    padding: 0;
+}
+
+/*body{background:#;}*/
+/*ͨ���ֺ�*/
+.my_font {
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #009758;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}

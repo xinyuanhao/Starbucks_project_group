@@ -1,0 +1,412 @@
+*{
+    margin:0px;
+}
+#star .container02{
+    height: 100%;
+    padding-bottom: 10px;
+    background:#f7f7f7;
+ }
+ #star .bg02{
+    padding-bottom: 30px;
+    margin-bottom:10px !important;
+}
+/* 第一个大div 心意相随 div样式  */
+#star .bg02>div:first-child{
+    width: 100%;
+    background-color: #00a862;
+    padding:0px 24px 18px 24px;
+    margin-top:-25px;
+}
+#star .grid-columns-2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1356px;
+    min-width: 641px;
+    box-sizing: border-box;
+    padding:48px 24px 0px 24px;
+    margin-left:15%;
+    margin-top: 0 !important; 
+    line-height: 200%;
+    
+}
+#star .a1{
+    width: 55%;
+    color:#fff;
+    padding: 12px 0px 12px 3%;
+    box-sizing: border-box;
+    line-height: 200%;
+}
+
+#star .a1>p{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 160%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: table;
+    text-transform: uppercase;
+}
+#star .a1>h1{ 
+    margin-bottom: 18px;
+    line-height: 140%;
+    font-size: 2.2rem;
+    margin: 0 0 24px;
+}
+#star .a1>p:nth-child(3){
+    color: #fff;
+    width: 90%;
+    font:20px Gotham,Helvetica,Arial;
+    word-wrap: break-word;  /*word-wrap 属性允许长单词或 URL 地址换行到下一行   break-word	在长单词或 URL 地址内部进行换行。*/
+    margin: 0 0 24px;
+    display: block;
+    margin-block-start: 1em;/*属性定义了一个元素的逻辑块的开始边距, 是用来根据元素的书写模式，方向和文本方向进行实际边界的衡量*/
+    margin-block-end: 1em;/*属性是一个简写属性，用于在样式表中的单个位置设置各个逻辑块结尾边界属性值*/
+    line-height: 160%;
+    /* text-align: center; */
+}
+#star .a1>p:nth-child(4){
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin: 0 0 24px;
+    font:20px Gotham,Helvetica,Arial;
+}
+#star .a1 a{
+    color:#fff;
+    border-radius: 48px;
+    border:1px solid #fff;
+    padding: 2% 4% 2% 4%;
+    font:20px Gotham,Helvetica,Arial;
+    text-decoration: none;  /*取消a标签的下划线*/
+}
+#star .a2{
+    width: 50%;
+    padding: 12px 30px 12px 0;    
+    text-align: center;
+    word-break: normal;
+}
+#star .a2 img{
+    width:55%;
+    margin: 0 auto;
+}
+/*第二个大的div 样式*/
+#star .fluid{
+    width: 100%;
+    position:relative;
+    line-height: 160%;
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box; /*为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。
+    通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度*/
+}
+#star .fluid::before{
+    content: '';
+    position: absolute;
+    height: 84px;
+    width: 100%; 
+    background-image: url(../img/car/02svc-wave.svg);
+    background-repeat: repeat-x;
+    top: -20px;
+    z-index: 1;
+}
+#star .fluid div{
+    margin: 0px;
+    width: 100%; 
+}
+#star .fluid>div>div{
+    height: 600px;
+}
+/*第二个大div 天猫商城样式*/
+#star .fluid>div>div:nth-child(1){
+    background-color: #C7BC87;
+    padding:12px ;
+    padding-top:72px !important;
+    padding-bottom:10% !important;
+    text-align: center;
+}
+#star .fluid>div>div:nth-child(1)>p{
+    color:#AA7A4A;
+    text-align:center;
+    line-height: 160%;
+    font-size: 1.3rem;
+} 
+#star .fluid>div>div>div{
+    padding:12px;
+    display: block;
+    list-style: none;
+}
+#star .fluid>div>div>div>h3{
+    font-weight: 700;  /*设置文本的粗细*/
+    color:#fff;
+    margin-bottom:24px;
+    font-size:1.6rem;
+}
+#star .fluid>div>div>div>img{
+    max-width:100%;
+    margin:12px 0;
+    border:0;
+    list-style: none;
+    line-height: 160%
+}
+#star .fluid>div>div>div:nth-child(3){
+    width:100%;
+    position: relative;
+    z-index:1;
+}
+#star .fluid>div>div>div>a{
+    margin: 24px 0 0;
+    border-radius: 48px;
+    padding: 2% 4% 2% 4%;
+    border:1px solid #fff;
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;  /*取消a标签的下划线*/
+}
+#star .fluid>div>div>img{
+    bottom: 0px;
+    position: absolute;   /*绝对定位的元素*/
+    left: 50%;
+    margin-top: 10px; 
+    transform: translateX(-50%);/*在x轴上对元素进行缩放*/
+    width: 65%;
+    margin: 0px;
+    max-width: 100%;
+}
+/*第二个大div 扫码赠送星礼卡样式*/
+
+#star .fluid>div>div:nth-child(2){
+    background-color: #36B35F;
+    padding:12px;
+    padding-top:72px !important;
+    box-sizing: border-box;
+    padding-bottom:10% !important;
+    float: left;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#star .wrapper{
+    padding:0px 12px 0px 12px !important;
+}
+#star .wrapper>p:nth-child(1){
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom:24px;
+}
+#star .wrapper>div>div:nth-child(1){
+    margin-bottom:24px !important;
+}
+#star .wrapper>div>div:nth-child(1)>img{  
+    width:50%;
+    max-width:100%;
+}
+#star .wrapper>div>div:nth-child(2){
+    margin-bottom:24px !important;
+}
+#star .wrapper>div>div:nth-child(2)>img{
+    width: 70%;
+    height: 80%;
+    max-width:100%;
+    margin-bottom:30px !important;
+}
+#star .wrapper>p:nth-child(3){
+    width: 80%;
+    margin:0 auto;
+    color:#fff;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 160%;
+}
+/*第二个大div 公司购买 样式*/
+#star .fluid>div>div:nth-child(3){
+    background-color: #EDEBE9;
+    padding:12px;
+    padding-top:72px !important;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#star .wrapper3{
+    padding:0px 12px 0px 12px !important;
+}
+#star .wrapper3>p:nth-child(1){
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom:24px;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#star .wrapper3>div>p:nth-child(1){
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0 0 24px;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#star .wrapper3>div>p:nth-child(2){
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0 0 24px;
+    display: block;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#star .wrapper3>div>p:nth-child(2)>a{
+    background: transparent;
+    border: 0;
+    color: #00A862;
+    display: inline-block;
+    padding: 0;
+    cursor: pointer; /*cursor 属性规定要显示的光标的类型（形状）。*/
+    text-decoration: none;
+}
+#star .wrapper3>div>a{
+    background: none;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    display: inline-block;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    padding: 6px 18px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#star .wrapper3>img{
+    bottom: 0px;
+    left: 50%;
+    margin: 0px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 100%;
+    margin:0px !important;
+}
+/*第三个大div 星礼卡 样式*/
+#star .gift-card{
+    padding:18px 24px 18px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    /*max-width: 1000px;*/
+    width: 67%;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.6rem;
+    font-weight: 400;
+    height:10%;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  
+}
+#star .gift-card>div:first-child{
+    padding:24px 0px 12px 0px;
+    text-align: center;
+    display: block;
+}
+#star .gift-card>div>h2{
+    margin-bottom:18px;
+    line-height: 140%;
+    font-size:1.7rem;
+    font-weight: 400;
+    color:#000;
+    line-height: 160%;
+}
+#star .gift-card>div>p{
+    
+    color:rgba(0,0,0,0.56);
+    font-size:1.0rem;
+    font-weight: 700;
+    text-transform: uppercase;/*定义仅有大写字母。*/
+    word-break: normal;/*使用浏览器默认的换行规则*/
+    margin-bottom:24px;
+}
+#star .gift-card>ul>li{
+    width:600%;
+    margin:0px;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:12px;
+    min-height: 300px;
+    
+}
+#star .gift-card>ul>li>a{
+    width:100%;
+    height:100%;
+    background: #fff;
+    display:block;
+    border-radius: 2px;
+    position:relative;
+    padding:18px;
+    transition:  .3s;
+    text-decoration:none;
+    box-shadow:0 1px 1px 2px rgba(0, 0, 0, 0.10)
+}
+#star .gift-card>ul>li:nth-child(1)>a>div{
+    background-image: url(../img/car/08svc-series-1.png);
+}
+#star .gift-card>ul>li:nth-child(2)>a>div{
+    background-image: url(../img/car/09svc-series-2.png);
+}
+#star .gift-card>ul>li:nth-child(3)>a>div{
+    background-image: url(../img/car/10svc-series-3.png);
+}
+#star .gift-card>ul>li:nth-child(4)>a>div{
+    background-image: url(../img/car/11svc-series-4.png);
+}
+#star .gift-card>ul>li:nth-child(5)>a>div{
+    background-image: url(../img/car/12svc-series-5.png);
+}
+#star .gift-card>ul>li:nth-child(6)>a>div{
+    background-image: url(../img/car/13svc-series-6.png); 
+}
+#star .gift-card>ul>li>a>div{
+    height: 264px;
+    width: calc(100% + 37px);
+    margin:-18px -19px 6px -19px !important;
+    background-position: center; /*背景图像的起始位置中间*/
+    background-repeat: no-repeat;/*背景图像平铺的方式 背景图像将仅显示一次*/
+    background-size: cover; /*背景图像的尺寸 完全覆盖背景区域*/
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto 6px;
+}
+#star .gift-card>ul>li>a>span{
+    font-size: 1.0rem;
+    background: #C2A661;
+    color: #FFF;
+    position: absolute;
+    padding: 3px 16px;
+    left: -1px;
+    top: 10px;
+    line-height:180%;
+}
+#star .gift-card>ul>li>a>strong{
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: normal;
+    text-align: left;
+    display: block;
+    width: 100%;
+    line-height: 177%;
+    font-size: 1.0rem;
+}
+#star .gift-card>ul>li>a:hover{
+    margin-top: -10px;
+    margin-bottom:10px;
+   box-shadow:0 1px 1px 2px rgba(0, 0, 0, 0.16)
+}

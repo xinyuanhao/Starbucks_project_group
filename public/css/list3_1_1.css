@@ -1,15 +1,147 @@
-.fluid>a{
+/* 上部分 */
+section .listTop{
+    display: flex;
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 48px;
+    align-items: center;
+}
+section .listTop1{
+    padding-right: 24px;
+    text-align: center;
+}
+section .listTop1>img{
+    width: 90%;
+}
+section .listTop2{
+    padding-left: 24px;
+}
+section .listTop2 .my_text{
+    color: #999;
+    font-size: 0.9rem;
+    margin-right: 8px;
+}
+section .listTop2 .press>span:last-child{
+    font-size: 25px;
+    font-weight: 700;
+}
+section .listTop2>.listText>h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+section .listTop2>.listText>p:first-child{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c2a661;
+    /* margin-top: 24px; */
+}
+section .listTop2 .count button{
+    width: 1rem;
+    line-height: 1.5rem;
+    color: #999;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 10%;
+}
+section .listTop2 .count_input{
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    outline: 0;
+    display: inline;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 10%;
+}
+section .listTop2 .choose{
+    border: 1px solid #999;
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+}
+section .listTop2 .choose:hover{
+    border:1px solid #00A862;
+    color: #00A862;
+}
+section .listTop2 .listText_h{
+    line-height: 34px;
+}
+
+section .listTop2 .list_buy{
+    color: #00A862;
+    text-align: center;
+    width: 130px;
     float: left;
+    border: 1px solid #00A862;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+section .listTop2 .list_buy:hover{
+    color: #fff;
+    background-color: #00A862;
+    border: 1px solid #00A862;
+}
+
+
+/* 下部分 */
+section .listBottom{
+    margin-left: 48px;
+}
+
+section .listBottom>div>h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+section .fluid{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+section .fluid>a{
+    padding-top: 10px;
     margin-right: 15px;
 }
-.fluid>.thumbnail{
-    width: auto;
+section .fluid>.thumbnail{
+    width: 100%;
 }
-.fluid>a:first-child{
-    margin-left: 20px;
+
+/* 小轮播 */
+/* section .listBottom .grid .fluid{
+    max-width: 100%;
+} */
+section .listBottom .smallLB{
+    width: 100%;
+    height: 220px;
+    position: relative;
 }
-.fluid::after{
-    content:"";
-    display: table;
-    clear: both;
+section .listBottom .smallLB .LBimg>img{
+  width: 18px;
+  height: 18px;
+}
+section .listBottom .smallLB .LBimg{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.22);
+    background: white;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+section .listBottom .smallLB .LB_left{
+    margin-top: 80px;
+}
+section .listBottom .smallLB .LB_right{
+    margin-top: -116px;
+    margin-left: 95%;
 }

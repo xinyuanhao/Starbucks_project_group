@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>全新多重体验式旗舰店惊艳亮相</title>
+  <!-- 设置视口-->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 导入css-->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <!-- 导入3个js-->
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../css/comm.css" />
+  <link rel="stylesheet" href="../../css/othernav.css" />
+  <style>
+      #content99{
+        width: 100%;
+        height: 100%;
+      }
+  
+      .header99{
+        background-color: #fff;
+        border-top: 2px solid #00A862;
+      }
+  
+      .header99-h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.2rem;
+        padding-bottom: 15px;
+        padding-top: 30px;
+      }
+  
+      .header99-p{
+        font-size: 1.2rem;
+        text-align: center;
+        color: #C2A661;
+        font-weight: 500;
+        padding-bottom: 15px;
+      }
+  
+      .header99-image{
+        text-align: center;
+        font-size: 1.4rem;
+      }
+  
+      .section{
+        background-color: #f7f7f7;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 35px;
+      }
+  
+      .section-header99{
+        text-align: center;
+        padding: 30px 24px 10px 24px;
+        font-size: 1.2rem;
+      }
+  
+      .section-h2{
+        font-size: 1.6rem;
+        padding-bottom: 15px;
+      }
+  
+      .section-p{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+      }
+  
+      .section-image{
+        text-align: center;
+        padding-bottom: 15px;
+      }
+  
+      .section-image-a{
+        max-width: 100%;
+        padding-bottom: 15px;
+      }
+      .image-p{
+        font-size: 16px;
+        text-align: center;
+        font-style: italic;
+        padding-bottom: 15px;
+      }
+  
+      .section-a{
+        color:#00A862;
+        text-decoration: none !important;
+      }
+    </style>
+</head>
+
+<body>
+
+  <!-- Navigation panel -->
+
+  <nav id="nav" class="h-100">
+    <!-- index-->
+    <div class="container h-100">
+      <!-- 导航栏的头部-->
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="../../img/project_nav/logo.svg" alt="星巴克">
+        </a>
+        <div class="primary ml-3">
+          <ul>
+            <li class="stores">
+              <a id="stores-primary" href="/map.html">
+                门店
+              </a>
+            </li>
+
+            <li class="account">
+              <a id="account-primary" href="/login.html">
+                我的帐户
+              </a>
+            </li>
+
+            <li class="menu">
+              <a id="menu-primary" href="/menus.html">
+                菜单
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a class="icon trigger " id="nav-menu">
+          <img src="../../img/project_nav/icon-hamburger.svg" alt="菜单">
+        </a>
+
+      </header>
+      <!-- 菜单明细的body-->
+      <div class="body">
+        <div id="account-navigation" class="body">
+          <nav data-reactroot class="container middle secondary">
+            <a class="back" href="../03_news.html">
+              <img src="../../img/project_nav/icon-chevron-left.svg" alt="">
+              企业新闻
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- button 隐藏-->
+    <div class="overlay h-100" id="nav-overlay">
+      <div class="container h-100">
+        <header class="header">
+          <a class="logo" href="/">
+            <img src="../../img/project_nav/logo.svg" alt="星巴克">
+          </a>
+          <button class="icon close"></button>
+        </header>
+        <section class="body w-100">
+          <div class="container middle w-100">
+            <ul>
+              <li>
+                <a id="stores-overlay" href="/map.html">门店</a>
+              </li>
+              <li>
+                <a id="account-overlay" href="/club.html">星享俱乐部</a>
+              </li>
+              <li>
+                <a id="menu-overlay" href="/menus.html">菜单</a>
+              </li>
+              <li>
+                <a id="shop-car" href="javascript:;">购物车</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a id="apps-overlay" href="javascript:;">星巴克移动应用</a>
+              </li>
+              <li>
+                <a id="svc-overlay" href="javascript:;">星礼卡</a>
+              </li>
+              <li>
+                <a id="starbucks_reserve-overlay" href="javascript:;">星巴克臻选™</a>
+              </li>
+              <li>
+                <a id="starbucks_mop-overlay" href="javascript:;">啡快™ － 在线点 到店取</a>
+              </li>
+              <li>
+                <a id="starbucks_delivery-overlay" href="javascript:;">专星送™</a>
+              </li>
+              <li>
+                <a id="coffeehouse-overlay" href="javascript:;">咖啡星讲堂</a>
+              </li>
+              <li>
+                <a id="about-overlay" href="/about.html/01_inchina.html">关于星巴克</a>
+              </li>
+              <li>
+                <a id="help-overlay" href="javascript:;">帮助中心</a>
+              </li>
+              <li>
+                <hr />
+              </li>
+            </ul>
+            <footer class="account margin2 mobile-hidden">
+              <a class="sign-in" href="/login.html">
+                <img src="../../img/project_nav/icon-account.svg">
+                <span>
+                  <span>登录</span>
+                </span>
+              </a>
+              <a class="button small register" href="/enroll.html">
+                <span>
+                  <span>注册</span>
+                </span>
+              </a>
+            </footer>
+
+
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <a id="en-collapse" class="lang" href="javascript:;">
+              English
+            </a>
+            |
+            <a id="privacy-collapse" href="javascript:;">
+              隐私政策
+            </a>
+            |
+            <a id="terms-collapse" href="javascript:;">
+              使用条款
+            </a>
+            <div class="legal">
+              <div class="license">
+                <span>
+                  <a href="javascript:;">
+                    <img width="10" height="10" src="../../img/project_nav/icpicon.png">&nbsp;填码网安备
+                    todu1903—2号
+                  </a>
+                </span> |<br />
+                <a href="javascript:;" target="_blank">填ICP备todu1903—2号</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </nav>
+  <section id="content">
+    <div id="content99">
+      <div class="header99">
+          <h1 class="header99-h1">全新多重体验式旗舰店惊艳亮相<br>星巴克臻选®北京坊旗舰店盛大开业</h1>
+          <p class="header99-p">28/06/2018</p>
+          <p class="header99-image">
+            <a href="">
+              <img src="../../about.image/03_news_image/new.img/wechat.svg" alt="">
+            </a>
+            <a href="">
+              <img src="../../about.image/03_news_image/new.img/weibo.svg" alt="">
+            </a>
+          </p>
+        </div>
+        <div class="section">
+          <p class="section-header99">集咖啡、茶与酒类饮品于三层独立空间，<br>以一系列独有的创新产品刷新顾客体验，<br>星巴克全球除烘焙工坊之外的最大门店。</p>
+          <p class="section-p">
+            （2018年6月28日，北京）星巴克中国首家多重体验式旗舰店、星巴克臻选®北京坊旗舰店将于明日（6月29日）正式开业。作为星巴克打造第三空间的最新精湛之作，北京坊旗舰店集星巴克臻选®、茶瓦纳™和特调学派三大整层独立空间于一体，以一系列此店独有的创新产品，为中国顾客带来耳目一新的旗舰店体验。这也是继嘉里中心旗舰店、三里屯太古里旗舰店之后，星巴克在北京倾力打造的第三家旗舰店。
+          </p>
+          <p class="section-p">
+            “中国是星巴克最大、最重要的海外市场，而北京则是星巴克与中国顾客初次见面的地方。”星巴克中国首席执行官王静瑛表示：“我们创新的脚步从未停止，作为我们最新推出的诚意之作，北京坊旗舰店凝聚了星巴克在咖啡领域47年的专业经验和零售创新力，一系列独创、独有、独特的体验，将为中国顾客带来耳目一新的星巴克体验。”
+          </p>
+          <h2 class="section-h2">潮流设计，殿堂气派融合胡同肌理</h2>
+          <p class="section-p">
+            三层独栋的星巴克臻选®北京坊旗舰店，是星巴克全球除烘焙工坊之外面积最大的门店，总面积达1040平方米，坐落于北京中轴线上繁华的北京坊商圈，毗邻著名历史文化街区大栅栏。在这片浓缩了老北京传统文化和新北京时代变迁的中西文化交融之地，北京坊旗舰店依托北京坊既有建筑体，充分借鉴大栅栏地区胡同肌理、老北京四合院结构和故宫建筑特色等设计灵感，从门店设计到顾客体验均作出融入所在社区的大胆创新。
+          </p>
+          <p class="section-image">
+            <img class="section-image-a" src="../../about.image/03_news_image/new.img/beijingfang1.jpg" alt="">
+          </p>
+          <p class="image-p">全新星巴克臻选®北京坊旗舰店<br>集星巴克臻选®、茶瓦纳™和特调学派三大整层独立空间于一体</p>
+          <p class="section-p">
+            门店外墙的格栅设计，自然分割视线，从店外走过或是从店内看出，都仿佛置身宫殿门廊，看着一方世界。由大栅栏引发的视觉想象，则以不同的线条纹理贯穿店内——或以木质格栅直观呈现于一层屋顶，致敬“大栅栏”的历史由来；或以竖向纹理不时出现在各层墙面，模拟平行贯通的胡同肌理。京城四合院结构，不仅直观地以错落有致的方块组合，融入二层屋顶设计中，还极大启发了各层的整体设计灵感：四周聚拢式的空间设计，自然凸显了位于每层中央的每个吧台；三层门店垂直纵深，将传统四合院横向的“庭院深深深几许”，竖向折叠于这座独栋建筑中，一层一进，每层“庭院”别有洞天。
+          </p>
+          <h2 class="section-h2">人气臻选，荟集烘焙工坊咖啡特调</h2>
+          <p class="section-p">从一颗咖啡生豆到一杯醇香咖啡，星巴克臻选®的匠心在北京坊旗舰店一层的臻选咖啡吧台沉淀。</p>
+          <p class="section-image">
+            <img class="section-image-a" src="../../about.image/03_news_image/new.img/beijingfang2.jpg" alt="">
+          </p>
+          <p class="image-p">臻选咖啡吧台位于门店一层</p>
+          <p class="section-p">
+            北京坊旗舰店最不可错过的核心体验，是来自全世界三大咖啡产区各具风味和特色的星巴克臻选®咖啡。这些星巴克专业团队在全世界各个角落费心寻找到的臻选咖啡，通过“咖啡和种植者公平规范”（C.A.F.E.
+            Practices）认证和严格的道德采购，经量身定制的精心烘焙后，新鲜送达北京坊旗舰店，保留了完好的风味状态。</p>
+          <p class="section-p">
+            这些从世界各地精挑细选而来的高品质臻选咖啡，在“最后十英尺”由星巴克咖啡大师以精湛技艺和各具特色的煮制方式手工调制——顶级商用黑鹰半自动浓缩咖啡机、雅致手冲、经典手冲、虹吸、冷萃、气致冷萃、法压，七种煮制方式同台，打造臻选吧台上方寸间的“咖啡博览会”。
+          </p>
+          <p class="section-p">
+            更为惊喜的是，北京坊旗舰店还将首次呈现多款来自星巴克“创新实验室”——上海烘焙工坊最受顾客欢迎的人气创意咖啡特饮，包括全新咸甜口感的烟熏司考奇拿铁，颠覆寻常的绵云美式，香甜可口的榛心玛奇朵，展现黑围裙咖啡大师精妙拉花技艺的可芮朵，制作过程宛如调酒的冰调咖啡，融入香草甜奶的雪醇冰调，联合系列浓缩咖啡、咖啡融合冰淇淋和冲煮咖啡等。多达数十种咖啡味觉新体验，将近距离地满足更多咖啡爱好者。
+          </p>
+          <h2 class="section-h2">创意香茗，首个茶瓦纳™整层空间惊艳亮相</h2>
+          <p class="section-p">
+            北京坊旗舰店的另一特色，则是以整个二层完整惊艳地呈现了星巴克旗下高端茶品牌茶瓦纳™（Teavana™）茶饮，品质卓越的茶原料和精心研发的新思饮品将充分满足中国消费者的创新茶饮体验需求。</p>
+          <p class="section-image">
+            <img class="section-image-a" src="../../about.image/03_news_image/new.img/beijingfang3.jpg" alt="">
+          </p>
+          <p class="image-p">茶瓦纳™吧台位于门店二层</p>
+          <p class="section-p">
+            位于二层的茶瓦纳™吧台造型灵感源自蓬勃而出的茶叶嫩芽，立体几何造型的木质吧台更显茶文化的细腻，同时也是向中国几千年的茶文化的致敬。客区还首次引入颇具中式风格的藤背座椅，使顾客呼吸传统茶文化中那份悠然自得的意境。</p>
+          <p class="section-p">
+            对于喜爱品茗的顾客而言，在这里，除了传统的单一品种茶，他们还将享受到耳目一新的冲煮方式和茶饮体验，手工调制的新思茶饮，口感如天鹅绒般绵密的气致茶饮以及融合科技感和观赏性的蒸汽朋克冲煮系统等，都不容错过。</p>
+          <h2 class="section-h2">美食佐酒，首个独立品酒空间沉醉京城</h2>
+          <p class="section-p">
+            北京坊旗舰店的三层，则将给顾客带来咖啡邂逅美酒的惊喜。作为北京首家提供酒类饮品的门店，北京坊旗舰店在三层特意打造了星巴克中国首个独立的品酒空间，也为大家提供了又一会友聊天的夜生活新选择。</p>
+          <p class="section-image">
+            <img class="section-image-a" src="../../about.image/03_news_image/new.img/beijingfang4.jpg" alt="">
+          </p>
+          <p class="image-p">特调学派吧台位于门店三层</p>
+          <p class="section-p">
+            首次引入北京的特调学派吧台一侧为木质，为咖啡爱好者提供咖啡饮品；另一侧为大理石质地，主打精酿啤酒、小众葡萄酒和以咖啡为灵感而来的鸡尾酒等各类特调饮品。当醇厚回甘的咖啡相遇香气浓郁的酒品，前沿咖啡理念与酒文化一拍即合，带来新潮大胆的特调学派，创造舌尖新体验。
+          </p>
+          <p class="section-p">
+            为了给大家带来更独特和完整的品酒体验，此次北京坊旗舰店还特别设计了几款专为美酒设计搭配的美食：鲜蔬菜条与法国奶油乳酪，是搭配起泡酒的不二之选；法国传统布里芝士与绿橄榄搭配，佐以捷杰希梅多克干红葡萄酒，带来地道的法式体验；法式迷你咸派组合则是长相思白葡萄酒的最佳搭配。
+          </p>
+          <p class="section-p">
+            “我们希望星巴克臻选北京坊旗舰店能成为北京乃至周边地区的一大打卡必选之地，不论是一层的人气臻选咖啡特调，二层的茶瓦纳™创意香茗体验，还是三层的定制美食佐以美酒，都能够个性化地契合不同顾客在不同时段对不同场景的需求，”星巴克中国北区总经理吴晓雷介绍，“而这也将成为我们继续不断创新，为顾客提升星巴克体验的最大动力。北京坊旗舰店的开业，是星巴克又一个全新的开始。”
+          </p>
+          <br>
+          <hr><br>
+          <h2 class="section-h2">关于星巴克咖啡公司</h2>
+          <p class="section-p">
+            星巴克咖啡公司成立于1971年，始终致力于商业道德采购并烘焙世界上高品质的阿拉比卡咖啡。今天，门店遍布全球的星巴克已经成为世界上首屈一指的专业咖啡烘焙商和零售商。通过我们的星级咖啡师，星巴克始终坚持对卓越品质和服务的承诺，遵循我们的指导原则，通过每一杯优质的咖啡为我们的顾客每天营造独特的星巴克体验。欢迎您到访我们的门店，访问星巴克中国官方网站<a class="section-a"
+              href="https://www.starbucks.com.cn/">www.starbucks.com.cn</a>, 或关注星巴克中国新浪官方微博<a class="section-a"
+              href="http://weibo.com/starbucks">@星巴克中国</a>和星巴克中国官方微信，分享独特的星巴克体验。</p>
+        </div>
+      </div>
+  </section>
+  <!-- foot-nav -->
+  <div class="primary-mobile">
+    <ul class="flex justify-around logging-in-element">
+      <!-- 主页 -->
+      <li class="home" id="home-mobile">
+        <a href="/">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-home.svg">
+            <img src="../../img/project_nav/icon-home-active.svg" class="active">
+          </span>
+          <div id="home-mobile">主页</div>
+        </a>
+      </li>
+      <!-- 门店 -->
+      <li class="stores" id="stores-mobile">
+        <a href="/map.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-stores.svg">
+            <img src="../../img/project_nav/icon-stores-active.svg" class="active">
+          </span>
+          <div id="stores-mobile">门店</div>
+        </a>
+      </li>
+      <!-- 我的账户 -->
+      <li class="account" id="account-mobile">
+        <a href="/login.html">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-account.svg">
+            <img src="../../img/project_nav/icon-account-active.svg" class="active">
+          </span>
+          <div id="account-mobile">我的账户</div>
+        </a>
+      </li>
+      <!-- 菜单 -->
+      <li class="menu" id="menu-mobile">
+        <a href="/menus.html" class="active">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-menu.svg">
+            <img src="../../img/project_nav/icon-menu-active.svg" class="active">
+          </span>
+          <div id="menu-mobile">菜单</div>
+        </a>
+      </li>
+      <!-- 更多 -->
+      <li class="more" id="mors-mobile">
+        <a class="icon trigger" rel="nav-overlay">
+          <span class="icons">
+            <img src="../../img/project_nav/icon-more.svg">
+            <img src="../../img/project_nav/icon-more-active.svg" class="active">
+          </span>
+          <div id="more-mobile">更多</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+<script src="../../js/nav.js"></script>
+</body>
+
+</html>
